@@ -1,0 +1,10 @@
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
+1,2,C5 C6,100pF,https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD,C_0402_1005Metric,"100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",Murata Electronics,GCM1555C1H101JA16D,
+2,4,C1 C2 C3 C4,220pF,https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H221JA16-01A-EN_PDF_CERAMICCAPACITORSMD,C_0402_1005Metric,"220 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)",Murata Electronics,GCM1555C1H221JA16D,
+3,2,CR1 CR2,"PESD1CAN,215",https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf,SOT23_PESD1_NEX,70V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB,Nexperia USA Inc.,"PESD1CAN,215",
+4,1,J2,0430450200,https://tools.molex.com/pdm_docs/ps/PS-43045.pdf,CONN_SD-43045-001_02_MOL,"Connector Header Through Hole, Right Angle 2 position",Molex,0430450200,
+5,1,J1,0436500200,https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline,CONN_SD-43650-001_02_MOL,"Connector Header Through Hole, Right Angle 2 position 0.118"" (3.00mm)",Molex,0436500200,
+6,4,R3 R4 R5 R6,49.9,https://www.vishay.com/docs/20035/dcrcwe3.pdf,R_0402_1005Metric,"49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film",Vishay Dale,CRCW040249R9FKED,
+7,2,R1 R2,1k,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,R_0402_1005Metric,"1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film",Panasonic Industry,ERJ-2RKF1001X,
+8,1,U1,BQ79600PWRQ1,https://www.ti.com/lit/ds/symlink/bq79600-q1.pdf,SOIC_9600PWQ1_TEX,Automotive SPI/UART communication interface functional-safety compliant with automatic host wakeup.,Texas Instruments,BQ79600PWRQ1,
+9,2,U2 U3,SM91502ALA-E,https://www.bourns.com/docs/product-datasheets/sm91502ala.pdf,IC6_SM91502ALA-E_BRN,150µH Pulse Transformer 1:1 Surface Mount,Bourns Inc.,SM91502ALA-E,
