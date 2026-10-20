@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Project Architecture")
 		(date "2026-10-20")
@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 144.78 21.59 0)
+		(at 80.01 20.32 0)
 		(size 130.81 12.7)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
@@ -35,7 +35,145 @@
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
 	(sheet
-		(at 241.3 129.54)
+		(at 177.8 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "956c8333-ae07-4fed-a498-85b19a919def")
+		(property "Sheetname" "Connectors"
+			(at 177.8 75.1709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 177.8 102.1846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "af224eec-27d8-4f88-a3c3-712d60217277")
+		(property "Sheetname" "Daisy Chain"
+			(at 127 75.1709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "daisy_chain.kicad_sch"
+			(at 127 102.1846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CVDD" passive
+			(at 127 78.74 180)
+			(uuid "3c2f51c8-9f5e-4f39-b980-57ec09af84be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" passive
+			(at 127 99.06 180)
+			(uuid "0dac91d4-a213-4f8f-b956-99244507d5ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COMH{P N}" bidirectional
+			(at 152.4 78.74 0)
+			(uuid "f3fbcf22-d7c5-46cd-a394-df851ec9cacf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COML{P N}" bidirectional
+			(at 152.4 83.82 0)
+			(uuid "491a8136-630a-4c12-82c6-c854a19831ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
 		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51,7 +189,7 @@
 		)
 		(uuid "bb499070-79cc-4923-ab18-d59186dc0d26")
 		(property "Sheetname" "Mechanical"
-			(at 241.3 128.5109 0)
+			(at 127 125.9709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64,7 +202,7 @@
 			)
 		)
 		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 241.3 150.4446 0)
+			(at 127 147.9046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76,107 +214,58 @@
 			)
 		)
 		(instances
-			(project "BOARD_TEMPLATE"
+			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "6")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 185.42 129.54)
-		(size 36.83 20.32)
+		(at 76.2 76.2)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0)
+			(width 0.1524)
 			(type solid)
 		)
 		(fill
 			(color 255 255 194 1)
 		)
-		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
-		(property "Sheetname" "Section B - Title B"
-			(at 185.42 128.5109 0)
+		(uuid "c9d6697c-143e-4604-bd04-622cd5207791")
+		(property "Sheetname" "Com. Chip"
+			(at 76.2 75.1709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.905 1.905)
+					(thickness 0.254)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - Title B.kicad_sch"
-			(at 185.42 150.4446 0)
+		(property "Sheetfile" "com_chip.kicad_sch"
+			(at 76.2 102.1846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
 		)
 		(instances
-			(project "BOARD_TEMPLATE"
+			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 137.16 129.54)
-		(size 36.83 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 255 255 194 1)
-		)
-		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "Section A - Title A"
-			(at 137.16 128.5109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 137.16 150.4446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BOARD_TEMPLATE"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "4")
 				)
 			)
 		)

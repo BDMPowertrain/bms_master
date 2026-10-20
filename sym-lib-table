@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "remote_bq79600pwrq1") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_bq79600pwrq1.kicad_sym") (options "") (descr "Remote download"))
+)

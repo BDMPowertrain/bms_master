@@ -111,7 +111,7 @@ groups:
   - name: tables
     outputs:
       - @CSV_COMP_COUNT_OUPUT@
-      # - @CSV_IMPEDANCE_TABLE_OUTPUT@   # Tier 2 — configure.py uncomments this line when enabled
+      # - @CSV_IMPEDANCE_TABLE_OUTPUT@   # Tier 2 - enable via configure.py
       - @CSV_DRILL_TABLE_OUTPUT@
       - testpoints
       - notes
@@ -508,15 +508,15 @@ definitions:
 
   # Metadata — MEMBER: set once by configure.py, never by hand =================
 
-  PROJECT_NAME: Board Name
-  BOARD_NAME: BOARD_NAME
-  DESCRIPTION: One-line description of what this board does.
+  PROJECT_NAME: "BMS Master"
+  BOARD_NAME: "BMS_MASTER"
+  DESCRIPTION: "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault."
 
-  COMPANY: Blue Devil Motor Sports
-  DESIGNER: Author
+  COMPANY: "Blue Devil Motor Sports"
+  DESIGNER: "Aidan Brzezinski"
 
   LOGO: 'Logos/bdm_logo.png'
-  GIT_URL: 'https://github.com/BDMPowertrain/PLACEHOLDER'
+  GIT_URL: "https://github.com/BDMPowertrain/bms_master"
 
   # Preflight ==================================================================
 
