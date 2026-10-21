@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "0") (type "KiCad") (uri "/home/aidan/Downloads/0.pretty") (options "") (descr ""))
 	(lib (name "remote_bq79600pwrq1") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_bq79600pwrq1.pretty/") (options "") (descr "Remote download"))
+	(lib (name "0_tmp") (type "KiCad") (uri "C:/Users/abrzezins/Downloads/templib/0_tmp.pretty") (options "") (descr ""))
+	(lib (name "remote_tfm-115-02-s-d-wt") (type "KiCad") (uri "C:/Users/abrzezins/Git/bms_master/RemoteLibrary/footprints/remote_tfm-115-02-s-d-wt.pretty/") (options "") (descr "Remote download"))
 )
