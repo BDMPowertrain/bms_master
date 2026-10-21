@@ -222,7 +222,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 76.2)
+		(at 50.8 76.2)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -238,7 +238,7 @@
 		)
 		(uuid "c9d6697c-143e-4604-bd04-622cd5207791")
 		(property "Sheetname" "Com. Chip"
-			(at 76.2 75.1709 0)
+			(at 50.8 75.1709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -251,7 +251,7 @@
 			)
 		)
 		(property "Sheetfile" "com_chip.kicad_sch"
-			(at 76.2 102.1846 0)
+			(at 50.8 102.1846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
