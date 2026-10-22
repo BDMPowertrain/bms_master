@@ -2,4 +2,7 @@
 	(version 7)
 	(lib (name "remote_bq79600pwrq1") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_bq79600pwrq1.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_tfm-115-02-s-d-wt") (type "KiCad") (uri "C:/Users/abrzezins/Git/bms_master/RemoteLibrary/symbols/remote_tfm-115-02-s-d-wt.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_grm155r61h224ke01d") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_grm155r61h224ke01d.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_gcm155r71h104ke02j") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_gcm155r71h104ke02j.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_rc0402jr-0710kl") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_rc0402jr-0710kl.kicad_sym") (options "") (descr "Remote download"))
 )
