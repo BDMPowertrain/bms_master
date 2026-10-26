@@ -779,7 +779,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -819,7 +819,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "R7,C7-10,#PWR1-6,U1,J1-4",
+    "used_designators": "R7-12,D1-6,C2,C7-14,CR1,#PWR1-22,U1,U4-6,J1-6",
     "variants": []
   },
   "sheets": [
@@ -848,12 +848,16 @@
       "Daisy Chain"
     ],
     [
-      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
-      "Revision History"
+      "171c5d79-4c15-4ec3-a1b7-6f0eaa461925",
+      "BMS_OK & watchdog"
     ],
     [
       "bb499070-79cc-4923-ab18-d59186dc0d26",
       "Mechanical"
+    ],
+    [
+      "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
+      "Revision History"
     ]
   ],
   "text_variables": {
@@ -862,7 +866,7 @@
     "BRANCH": "dev",
     "BUILD_VARIANT": "DRAFT",
     "COMPANY": "Blue Devil Motor Sports",
-    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery\u2019s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
+    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "c3341ef",

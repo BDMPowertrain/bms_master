@@ -35,6 +35,55 @@
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
 	(sheet
+		(at 177.8 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "171c5d79-4c15-4ec3-a1b7-6f0eaa461925")
+		(property "Sheetname" "BMS_OK & watchdog"
+			(at 177.8 125.9709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms_ok_and_watchdog.kicad_sch"
+			(at 177.8 152.9846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 177.8 76.2)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
@@ -174,7 +223,7 @@
 	)
 	(sheet
 		(at 127 127)
-		(size 27.94 20.32)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -202,7 +251,7 @@
 			)
 		)
 		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 127 147.9046 0)
+			(at 127 152.9846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
