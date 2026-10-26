@@ -14,4 +14,5 @@
 	(lib (name "remote_tps3430wdrcr") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_tps3430wdrcr.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_ltst-c190tbkt") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_ltst-c190tbkt.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_erj-2ge0r00x") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_erj-2ge0r00x.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_sm91502ala-e") (type "KiCad") (uri "C:/Users/abrzezins/Git/bms_master/RemoteLibrary/footprints/remote_sm91502ala-e.pretty/") (options "") (descr "Remote download"))
 )

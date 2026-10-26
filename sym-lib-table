@@ -17,4 +17,5 @@
 	(lib (name "remote_ltst-c190kgkt") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_ltst-c190kgkt.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_ltst-c190krkt") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_ltst-c190krkt.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_erj-2rkf1001x") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/symbols/remote_erj-2rkf1001x.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_sm91502ala-e") (type "KiCad") (uri "C:/Users/abrzezins/Git/bms_master/RemoteLibrary/symbols/remote_sm91502ala-e.kicad_sym") (options "") (descr "Remote download"))
 )

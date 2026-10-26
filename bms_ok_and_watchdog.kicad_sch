@@ -3038,26 +3038,26 @@
 		(uuid "2e0c6f9b-52ab-45f2-bdd4-12ab0e689103")
 	)
 	(junction
-		(at 104.14 96.52)
+		(at 154.94 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d39f50-5e23-45d4-a47f-28422b1938cc")
 	)
 	(junction
-		(at 104.14 88.9)
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cf4208b-5310-4efa-bbb0-721262d46ff6")
 	)
 	(junction
-		(at 104.14 91.44)
+		(at 154.94 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dba44edd-994c-4f67-ad96-0f75d44744ef")
 	)
 	(wire
 		(pts
-			(xy 104.14 109.22) (xy 116.84 109.22)
+			(xy 154.94 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 116.84 101.6)
+			(xy 152.4 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 104.14)
+			(xy 154.94 83.82) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 96.52) (xy 104.14 96.52)
+			(xy 157.48 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 104.14 88.9)
+			(xy 154.94 78.74) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 88.9)
+			(xy 154.94 73.66) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3147,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 104.14 104.14)
+			(xy 167.64 91.44) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3157,7 +3157,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 116.84 91.44)
+			(xy 154.94 78.74) (xy 167.64 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3167,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 104.14 96.52)
+			(xy 154.94 78.74) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3187,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 101.6 101.6)
+			(xy 152.4 99.06) (xy 152.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 116.84 88.9)
+			(xy 154.94 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3237,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 96.52) (xy 116.84 96.52)
+			(xy 165.1 83.82) (xy 167.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 		(uuid "e8aa4ab2-6b76-4bb0-a7c1-981a5fe344c2")
 	)
 	(label "WDT_CRST"
-		(at 104.14 109.22 0)
+		(at 154.94 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3315,7 +3315,7 @@
 	)
 	(symbol
 		(lib_id "remote_tps3430wdrcr:TPS3430WDRCR")
-		(at 116.84 88.9 0)
+		(at 167.64 76.2 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3326,7 +3326,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a96494f-969b-4346-8069-f8392a96b147")
 		(property "Reference" "U6"
-			(at 128.27 81.28 0)
+			(at 179.07 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3336,7 +3336,7 @@
 			)
 		)
 		(property "Value" "TPS3430WDRCR"
-			(at 128.27 83.82 0)
+			(at 179.07 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Footprint" "remote_tps3430wdrcr:DRC0010J_NV"
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +3357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3430.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1792980016368&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps3430"
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3368,7 @@
 			)
 		)
 		(property "Description" "Watchdog Circuit IC 10-VSON (3x3)"
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3390,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TPS3430WDRCR"
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +3401,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3412,7 +3412,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3467,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +3478,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 116.84 88.9 0)
+			(at 167.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +3554,7 @@
 	)
 	(symbol
 		(lib_id "remote_sn74lvc1g11idckrq1:SN74LVC1G11MDCKREP")
-		(at 182.88 88.9 0)
+		(at 233.68 76.2 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3565,7 +3565,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f39a1d2-6f0f-462c-9a37-7cecd218d820")
 		(property "Reference" "U4"
-			(at 193.04 81.28 0)
+			(at 243.84 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3575,7 +3575,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G11IDCKRQ1"
-			(at 193.04 83.82 0)
+			(at 243.84 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "Footprint" "remote_sn74lvc1g11idckrq1:DCK6"
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3596,7 +3596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g11-q1"
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property "Description" "3 Input AND Gate IC 1 Channel SC-70-6"
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3618,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3629,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SN74LVC1G11IDCKRQ1"
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3651,7 +3651,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3662,7 +3662,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +3673,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3684,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3695,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +3706,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +3717,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +3728,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 182.88 88.9 0)
+			(at 233.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,7 +3778,7 @@
 	)
 	(symbol
 		(lib_id "remote_ltst-c190krkt:LED")
-		(at 30.48 114.3 0)
+		(at 81.28 101.6 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3788,7 +3788,7 @@
 		(dnp no)
 		(uuid "34a2b1e5-a4dd-4def-900a-7c2e735b919f")
 		(property "Reference" "D6"
-			(at 33.02 111.76 0)
+			(at 83.82 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,7 +3798,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 35.56 116.84 0)
+			(at 86.36 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,7 +3808,7 @@
 			)
 		)
 		(property "Footprint" "remote_ltst-c190tbkt:LED_0603_1608Metric"
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3819,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +3841,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +3863,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "LTST-C190KRKT"
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,7 +3885,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3929,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +3951,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +3962,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +3973,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 30.48 114.3 0)
+			(at 81.28 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4000,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 104.14 86.36 0)
+		(at 154.94 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4011,7 +4011,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c9010c0-0b04-4c53-89df-588093b36e13")
 		(property "Reference" "#PWR016"
-			(at 104.14 90.17 0)
+			(at 154.94 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4022,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 104.14 81.28 0)
+			(at 154.94 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4032,7 +4032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 86.36 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 86.36 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"+3V3\""
-			(at 104.14 86.36 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4156,7 @@
 	)
 	(symbol
 		(lib_id "remote_erj-2rkf1001x:R_US")
-		(at 40.64 99.06 0)
+		(at 91.44 86.36 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4166,7 +4166,7 @@
 		(dnp no)
 		(uuid "5ecba691-9020-40af-b80a-f62f367ecba6")
 		(property "Reference" "R11"
-			(at 44.45 96.52 0)
+			(at 95.25 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 44.45 101.6 0)
+			(at 95.25 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" "remote_erj-2ge0r00x:R_0402_1005Metric"
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,7 +4208,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4219,7 +4219,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4230,7 +4230,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-2RKF1001X"
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4252,7 +4252,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4263,7 +4263,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,7 +4274,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4285,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4296,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4307,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4318,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4340,7 +4340,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 40.64 99.06 0)
+			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4444,7 @@
 	)
 	(symbol
 		(lib_id "remote_ltst-c190krkt:LED")
-		(at 30.48 106.68 0)
+		(at 81.28 93.98 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4454,7 +4454,7 @@
 		(dnp no)
 		(uuid "75f9cb65-7b39-4c39-9985-a89910ffafcf")
 		(property "Reference" "D5"
-			(at 33.02 104.14 0)
+			(at 83.82 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4464,7 +4464,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 35.56 109.22 0)
+			(at 86.36 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" "remote_ltst-c190tbkt:LED_0603_1608Metric"
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf"
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4496,7 @@
 			)
 		)
 		(property "Description" "Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4507,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4518,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4529,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "LTST-C190KRKT"
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4540,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4551,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4562,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4573,7 +4573,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +4584,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4595,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +4617,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +4628,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 30.48 106.68 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "remote_rc0402jr-0710kl:RT0402BRD0710KL")
-		(at 106.68 96.52 0)
+		(at 157.48 83.82 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4676,7 +4676,7 @@
 		(dnp no)
 		(uuid "7673df0d-14e1-4ade-ad84-967098808cdb")
 		(property "Reference" "R12"
-			(at 110.49 93.98 0)
+			(at 161.29 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 110.49 99.06 0)
+			(at 161.29 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" "remote_erj-2ge0r00x:R_0402_1005Metric"
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,7 +4740,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402JR-0710KL"
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4751,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,7 +4762,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,7 +4773,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +4784,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4795,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4806,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,7 +4817,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +4828,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4839,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4850,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 106.68 96.52 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4877,7 +4877,7 @@
 	)
 	(symbol
 		(lib_id "remote_ltst-c190kgkt:LED")
-		(at 30.48 91.44 0)
+		(at 81.28 78.74 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4887,7 +4887,7 @@
 		(dnp no)
 		(uuid "9ea2b677-c3a1-42f0-b358-1216f54a87a2")
 		(property "Reference" "D3"
-			(at 33.02 88.9 0)
+			(at 83.82 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4897,7 +4897,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 35.56 93.98 0)
+			(at 86.36 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4907,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" "remote_ltst-c190tbkt:LED_0603_1608Metric"
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +4929,7 @@
 			)
 		)
 		(property "Description" "Green 572nm LED Indication - Discrete 2.15V 0603 (1608 Metric)"
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4940,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4951,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "LTST-C190KGKT"
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4995,7 +4995,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,7 +5006,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +5017,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5028,7 +5028,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5039,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,7 +5050,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5061,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5072,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 30.48 91.44 0)
+			(at 81.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5099,7 @@
 	)
 	(symbol
 		(lib_id "remote_erj-2rkf1001x:R_US")
-		(at 40.64 91.44 0)
+		(at 91.44 78.74 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -5109,7 +5109,7 @@
 		(dnp no)
 		(uuid "c7589aa2-afb9-4c0c-97fc-56eb46242f7d")
 		(property "Reference" "R10"
-			(at 44.45 88.9 0)
+			(at 95.25 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5119,7 +5119,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 44.45 93.98 0)
+			(at 95.25 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5129,7 +5129,7 @@
 			)
 		)
 		(property "Footprint" "remote_erj-2ge0r00x:R_0402_1005Metric"
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,7 +5140,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5151,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5162,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5173,7 +5173,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ERJ-2RKF1001X"
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5184,7 +5184,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +5195,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5206,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5228,7 +5228,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5239,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5250,7 +5250,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5261,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5272,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,7 +5283,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 40.64 91.44 0)
+			(at 91.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5310,7 @@
 	)
 	(symbol
 		(lib_id "remote_ltst-c190kgkt:LED")
-		(at 30.48 99.06 0)
+		(at 81.28 86.36 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -5320,7 +5320,7 @@
 		(dnp no)
 		(uuid "cfe92ecd-91c6-422d-bafb-4518fb97aa64")
 		(property "Reference" "D4"
-			(at 33.02 96.52 0)
+			(at 83.82 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5330,7 +5330,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 35.56 101.6 0)
+			(at 86.36 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Footprint" "remote_ltst-c190tbkt:LED_0603_1608Metric"
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Description" "Green 572nm LED Indication - Discrete 2.15V 0603 (1608 Metric)"
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5384,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5395,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "LTST-C190KGKT"
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5406,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5428,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5450,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5461,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5472,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5483,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 30.48 99.06 0)
+			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,7 +5532,7 @@
 	)
 	(symbol
 		(lib_id "remote_sn74lvc1g07dckt:SN74LVC1G07DCKT")
-		(at 66.04 93.98 0)
+		(at 116.84 81.28 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -5542,7 +5542,7 @@
 		(dnp no)
 		(uuid "d21ae0a7-f1ee-480a-9c1e-4157950f981a")
 		(property "Reference" "U5"
-			(at 76.2 88.9 0)
+			(at 127 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5553,7 +5553,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G07DCKT"
-			(at 76.2 109.22 0)
+			(at 127 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5564,7 +5564,7 @@
 			)
 		)
 		(property "Footprint" "remote_sn74lvc1g07dckt:DCK5"
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5575,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf?ts=1753365038545&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC1G07"
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +5586,7 @@
 			)
 		)
 		(property "Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SC-70-5"
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5597,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SN74LVC1G07DCKT"
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,7 +5630,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,7 +5663,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5674,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5696,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5707,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5718,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 66.04 93.98 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +5832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 111.76 0)
+		(at 152.4 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5843,7 +5843,7 @@
 		(fields_autoplaced yes)
 		(uuid "eff5c23c-d007-4c0a-97df-c1dcc525472a")
 		(property "Reference" "#PWR017"
-			(at 101.6 118.11 0)
+			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5854,7 +5854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 116.84 0)
+			(at 152.4 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 111.76 0)
+			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 111.76 0)
+			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 101.6 111.76 0)
+			(at 152.4 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
