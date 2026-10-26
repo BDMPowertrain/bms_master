@@ -866,7 +866,7 @@
     "BRANCH": "dev",
     "BUILD_VARIANT": "DRAFT",
     "COMPANY": "Blue Devil Motor Sports",
-    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
+    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery\u2019s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "c3341ef",
