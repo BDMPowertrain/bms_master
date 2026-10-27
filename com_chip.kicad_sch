@@ -2323,327 +2323,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "remote_rc0402jr-0710kl:RT0402BRD0710KL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "remote_rcs060359r0fkea:R_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay Dale"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "CRCW060310K0FKEA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor Part Number" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mass (g)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RQjC_top (C/W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_max (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temp_min (C)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power Dissipation (W)" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rate" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SAP Code" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RT0402BRD0710KL_0_1"
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.905 1.016) (xy 2.286 0) (xy 2.667 -1.016) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 3.429 1.016) (xy 3.81 0) (xy 4.191 -1.016) (xy 4.572 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0) (xy 4.953 1.016) (xy 5.334 0) (xy 5.715 -1.016) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RT0402BRD0710KL_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 53.34 71.12)
@@ -2723,40 +2402,40 @@
 		(uuid "05ffac40-2431-4528-9a3e-d986dad71083")
 	)
 	(junction
+		(at 193.04 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a970755-a291-4a28-b493-caac1c79b4d2")
+	)
+	(junction
 		(at 127 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "785cc478-a426-460b-b8db-b5640312bfbb")
 	)
 	(junction
-		(at 111.76 88.9)
+		(at 177.8 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81075b5f-3f93-4857-a61f-85200bc15b46")
+	)
+	(junction
+		(at 110.49 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d2d0873-dd7a-4bf9-ad56-fc4d61da2c58")
+	)
+	(junction
+		(at 181.61 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ec05412-a355-4781-87ef-f4cb05eb1bfe")
 	)
 	(junction
 		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "decb6003-12b0-4069-8fcc-8976de239f03")
-	)
-	(junction
-		(at 195.58 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4a72964-0827-40b9-b2d7-bb2f8842d820")
-	)
-	(junction
-		(at 186.69 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7a57d88-9aed-4bc5-b48a-3f950909a1cd")
-	)
-	(junction
-		(at 137.16 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa249ca8-cc69-42ad-bd51-a58b7b61ea03")
 	)
 	(bus_entry
 		(at 116.84 114.3)
@@ -2839,16 +2518,6 @@
 		)
 		(uuid "da518351-0a17-48d5-afa9-017f2fb17b6e")
 	)
-	(wire
-		(pts
-			(xy 111.76 88.9) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c8afab-aa80-4499-815b-ad8e1a1142d9")
-	)
 	(bus
 		(pts
 			(xy 181.61 106.68) (xy 181.61 109.22)
@@ -2909,16 +2578,6 @@
 		)
 		(uuid "1ae8e126-f05f-43e8-beaf-a042f7258947")
 	)
-	(wire
-		(pts
-			(xy 195.58 86.36) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2776c8-fc1f-4467-aac8-56cf6b9bc0f8")
-	)
 	(bus
 		(pts
 			(xy 114.3 101.6) (xy 116.84 104.14)
@@ -2931,17 +2590,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 187.96 91.44)
+			(xy 181.61 86.36) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fafd36e-16d8-4493-b8e3-5682f09cf2d6")
+		(uuid "200ef800-6bb8-4dd0-885e-bb1c932a0a0b")
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 114.3 81.28)
+			(xy 110.49 81.28) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2971,16 +2630,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 80.01) (xy 186.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25e50b08-5b28-4d21-be4e-5479a7a05896")
-	)
-	(wire
-		(pts
 			(xy 58.42 93.98) (xy 58.42 91.44)
 		)
 		(stroke
@@ -3001,6 +2650,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3862f113-84c3-40cd-b1b4-64359f970b73")
+	)
+	(wire
+		(pts
 			(xy 127 88.9) (xy 127 91.44)
 		)
 		(stroke
@@ -3011,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 88.9) (xy 111.76 93.98)
+			(xy 110.49 88.9) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3031,23 +2690,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 187.96 81.28)
+			(xy 190.5 81.28) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4949b5a3-b40e-43dd-8510-c9a4d48babd7")
-	)
-	(wire
-		(pts
-			(xy 195.58 81.28) (xy 195.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ff1db1-4970-441a-af8d-2fe8912ac376")
 	)
 	(bus
 		(pts
@@ -3071,13 +2720,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 111.76 88.9)
+			(xy 193.04 91.44) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef81923-28ab-456b-9b44-25c917f4d9c5")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "607dc8a8-4841-4829-9ca7-327b261f365f")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64486a0d-f14c-45bf-8554-5dc77f595f25")
 	)
 	(wire
 		(pts
@@ -3111,16 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 139.7 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67fd9588-c5d7-4c8e-a680-2f5e78ed7282")
-	)
-	(wire
-		(pts
 			(xy 58.42 111.76) (xy 58.42 114.3)
 		)
 		(stroke
@@ -3128,6 +2787,26 @@
 			(type default)
 		)
 		(uuid "6834584f-bbac-4265-94e3-d2f747a8a44b")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b0c872-841f-43f9-81f5-8a9aaac6131f")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d1ac46-fed6-40b5-bf21-230b9012d4e9")
 	)
 	(wire
 		(pts
@@ -3161,13 +2840,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 137.16 88.9)
+			(xy 190.5 91.44) (xy 193.04 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d798556-2531-468d-99ef-fd37e483e20f")
+		(uuid "8ac1117e-c8c0-4d29-a813-f32ea4944f07")
 	)
 	(wire
 		(pts
@@ -3191,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97298e2a-fc13-4417-9b4e-d8ba442e0ba2")
+	)
+	(wire
+		(pts
 			(xy 58.42 111.76) (xy 60.96 111.76)
 		)
 		(stroke
@@ -3211,7 +2900,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 203.2 88.9)
+			(xy 162.56 91.44) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af76afa1-47ab-455a-9330-cb64628c27e9")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 198.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3251,13 +2950,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 186.69 81.28)
+			(xy 190.5 86.36) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0e8fbe5-0c9b-4ff8-8cd2-2ec8324d89b1")
+		(uuid "d34f13ca-7bff-45b6-a1e3-ef09d82c41ec")
 	)
 	(wire
 		(pts
@@ -3278,6 +2977,16 @@
 			(type default)
 		)
 		(uuid "db7f0cc7-e5c1-4070-a78e-57444ce5382e")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb91057-94aa-469c-ad74-3fa1e5b80204")
 	)
 	(bus
 		(pts
@@ -3301,17 +3010,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 195.58 91.44)
+			(xy 177.8 81.28) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e68dc57c-a040-4199-b639-db4457920f6c")
+		(uuid "e6313b99-5d3e-4dc6-b1b5-549756910264")
 	)
 	(bus
 		(pts
-			(xy 83.82 101.6) (xy 114.3 101.6)
+			(xy 109.22 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3068,7 @@
 		)
 		(uuid "3ecd8012-f3f2-4897-ad2d-65b4943f18d9")
 	)
-	(label "U1_SPI.MISO"
+	(label "SPI.MISO"
 		(at 127 109.22 0)
 		(effects
 			(font
@@ -3429,7 +3138,7 @@
 		)
 		(uuid "c730de39-8da1-4526-a667-57d13328fdad")
 	)
-	(label "U1_SPI.SCLK"
+	(label "SPI.SCLK"
 		(at 127 111.76 0)
 		(effects
 			(font
@@ -3438,16 +3147,6 @@
 			(justify left bottom)
 		)
 		(uuid "cee655dc-5152-4f55-9f47-03265116fea1")
-	)
-	(label "INH"
-		(at 175.26 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cfa09514-f975-41a4-a87c-c9d336cf2c1d")
 	)
 	(label "U1_COML.N"
 		(at 175.26 109.22 180)
@@ -3459,7 +3158,7 @@
 		)
 		(uuid "d5834b97-2c6d-41fa-8a07-6b002bd6a125")
 	)
-	(label "U1_SPI.RDY"
+	(label "SPI.RDY"
 		(at 127 116.84 0)
 		(effects
 			(font
@@ -3469,7 +3168,7 @@
 		)
 		(uuid "d8de6e7b-5138-4970-92ba-8985e6ff4d22")
 	)
-	(label "U1_SPI.nCS"
+	(label "SPI.nCS"
 		(at 127 114.3 0)
 		(effects
 			(font
@@ -3479,7 +3178,7 @@
 		)
 		(uuid "dd2f90f3-328a-4c8d-b16f-b2492822d0e2")
 	)
-	(label "U1_SPI.MOSI"
+	(label "SPI.MOSI"
 		(at 127 106.68 0)
 		(effects
 			(font
@@ -3498,16 +3197,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef779117-5fc0-42c2-9cf7-f1eec644d857")
-	)
-	(label "U1_SPI{SCLK MOSI MISO nCS RDY}"
-		(at 83.82 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5d71fa3-fcf4-4320-959e-66d22eeebc37")
 	)
 	(hierarchical_label "NFAULT"
 		(shape output)
@@ -3567,9 +3256,9 @@
 		)
 		(uuid "791fd899-b3f6-452e-90e7-d7a061e659d0")
 	)
-	(hierarchical_label "BQ_SPI"
+	(hierarchical_label "SPI{SCLK MOSI MISO nCS RDY}"
 		(shape bidirectional)
-		(at 83.82 101.6 180)
+		(at 109.22 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,7 +3326,7 @@
 		(dnp no)
 		(uuid "19d32841-2c10-45bc-ab8a-2942738e448f")
 		(property "Reference" "C8"
-			(at 121.92 87.63 0)
+			(at 114.3 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3647,7 +3336,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 121.92 90.17 0)
+			(at 114.3 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4090,430 +3779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_rc0402jr-0710kl:RT0402BRD0710KL")
-		(at 165.1 142.24 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46c0599b-db9f-4264-96a3-3477763e4e48")
-		(property "Reference" "R7"
-			(at 168.91 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_rcs060359r0fkea:R_0603_1608Metric"
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 165.1 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1020c8c-065b-4fab-9310-eff9b47dfa24")
-		)
-		(pin "2"
-			(uuid "be1734ca-899c-4fbf-9da1-ada6bb1af2d2")
-		)
-		(instances
-			(project "bms_master"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "remote_crcw060310r0jnea:R_US")
-		(at 177.8 81.28 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ced78ef-b814-4002-82ac-86d8a6ee58e8")
-		(property "Reference" "R8"
-			(at 181.61 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 181.61 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_rcs060359r0fkea:R_0603_1608Metric"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CRCW060310R0JNEA"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da1b671f-2769-4627-a564-26b71dae66d5")
-		)
-		(pin "2"
-			(uuid "55464a59-7702-469c-b2d1-cadbc8375217")
-		)
-		(instances
-			(project "bms_master"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 58.42 101.6 0)
 		(unit 1)
@@ -4592,219 +3857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "remote_gcm155r71h104ke02j:C")
-		(at 195.58 81.28 180)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67df808b-7099-443f-9739-b9403079f2e4")
-		(property "Reference" "C10"
-			(at 191.77 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 191.77 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "remote_cl05a105ko5nnnc:C_0402_1005Metric"
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GCM155R71H104KE02J"
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mass (g)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC (C/W)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RQjC_top (C/W)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_max (C)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp_min (C)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power Dissipation (W)" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rate" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SAP Code" ""
-			(at 195.58 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3677a99-2437-4495-98b8-1f0e67518098")
-		)
-		(pin "2"
-			(uuid "f59ef314-34af-4d3f-8825-b3ebaf68a14d")
-		)
-		(instances
-			(project "bms_master"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 186.69 80.01 0)
+		(at 193.04 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4812,10 +3866,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72770a75-9307-4326-906b-f1239abaf23c")
 		(property "Reference" "#PWR020"
-			(at 186.69 83.82 0)
+			(at 193.04 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +3879,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 186.69 74.93 0)
+			(at 193.04 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4836,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 80.01 0)
+			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +3900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 80.01 0)
+			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,7 +3911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"+12V\""
-			(at 186.69 80.01 0)
+			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,6 +4006,218 @@
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "remote_crcw060310r0jnea:R_US")
+		(at 182.88 81.28 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96304ca3-52a0-4d37-af59-e48d713870aa")
+		(property "Reference" "R8"
+			(at 186.69 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 186.69 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_rcs060359r0fkea:R_0603_1608Metric"
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW060310R0JNEA"
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 182.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61d3d1a5-63aa-46f2-872b-757ed0529f00")
+		)
+		(pin "2"
+			(uuid "6ee32454-0922-4e55-9eb0-b81e68c449bb")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5125,7 +4390,7 @@
 		(dnp no)
 		(uuid "c3ebf10d-1030-4068-ba6b-9f7dfae44bfd")
 		(property "Reference" "C7"
-			(at 121.92 80.01 0)
+			(at 114.3 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5135,7 +4400,7 @@
 			)
 		)
 		(property "Value" "220 nF"
-			(at 121.92 82.55 0)
+			(at 114.3 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5326,7 +4591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 88.9 0)
+		(at 198.12 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5334,10 +4599,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4e050b6-ab8b-41e4-9f5f-d89c23c3d38b")
 		(property "Reference" "#PWR019"
-			(at 203.2 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5348,7 +4612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 93.98 0)
+			(at 198.12 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5358,7 +4622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 88.9 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 88.9 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +4644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 203.2 88.9 0)
+			(at 198.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +4668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 93.98 0)
+		(at 110.49 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5414,7 +4678,7 @@
 		(dnp no)
 		(uuid "c54ea767-07bb-45fd-beb2-eb854427fae7")
 		(property "Reference" "#PWR06"
-			(at 111.76 100.33 0)
+			(at 110.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5425,7 +4689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 93.98 0)
+			(at 107.95 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5435,7 +4699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 93.98 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +4710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 93.98 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,7 +4721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
-			(at 111.76 93.98 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,8 +4744,219 @@
 		)
 	)
 	(symbol
+		(lib_id "remote_gcm155r71h104ke02j:C")
+		(at 182.88 86.36 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c79a4e26-7bcd-4180-993b-95c0c15d4e8a")
+		(property "Reference" "C10"
+			(at 190.5 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 190.5 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "remote_cl05a105ko5nnnc:C_0402_1005Metric"
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD"
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GCM155R71H104KE02J"
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mass (g)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC (C/W)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RQjC_top (C/W)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_max (C)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temp_min (C)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power Dissipation (W)" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rate" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SAP Code" ""
+			(at 182.88 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1c90472-f4f4-4d1c-8ffb-b70ff252b909")
+		)
+		(pin "2"
+			(uuid "63dee86f-0c5e-4c7e-a02f-3846cc6df8a2")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 88.9 0)
+		(at 127 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5489,10 +4964,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7b7c41b-98aa-4f8e-b65d-7eb9bdf02bcd")
 		(property "Reference" "#PWR021"
-			(at 137.16 92.71 0)
+			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5503,7 +4977,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 137.16 83.82 0)
+			(at 127 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5513,7 +4987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a local label with name \"+3V3\""
-			(at 137.16 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5559,7 +5033,7 @@
 	)
 	(symbol
 		(lib_id "remote_grm155r61h224ke01d:C")
-		(at 187.96 91.44 0)
+		(at 182.88 91.44 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -5569,7 +5043,7 @@
 		(dnp no)
 		(uuid "dc3291fd-b1d6-47b2-b8bf-ce5377115136")
 		(property "Reference" "C9"
-			(at 187.96 90.17 0)
+			(at 190.5 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5579,7 +5053,7 @@
 			)
 		)
 		(property "Value" "220 nF"
-			(at 187.96 92.71 0)
+			(at 190.5 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5589,7 +5063,7 @@
 			)
 		)
 		(property "Footprint" "remote_cl05a105ko5nnnc:C_0402_1005Metric"
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5074,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,7 +5085,7 @@
 			)
 		)
 		(property "Description" "0.22 uF (220 nF) ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5622,7 +5096,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5107,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R61H224KE01D"
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5118,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5129,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5140,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5151,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +5162,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +5173,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5184,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5721,7 +5195,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +5206,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5217,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 187.96 91.44 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

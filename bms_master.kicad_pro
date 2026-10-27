@@ -819,7 +819,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "R7-12,J1-6,D1-6,#PWR1-22,C2,C7-14,CR1,U1,U4-7",
+    "used_designators": "TH1,U1,U4-8,CR1,#PWR1-48,#PWR50,#PWR57,C1-4,C7-15,D1-6,J1-7,R7-21",
     "variants": []
   },
   "sheets": [
@@ -852,6 +852,10 @@
       "BMS_OK & watchdog"
     ],
     [
+      "bb46ac31-a623-4eaf-8eca-42657e99693d",
+      "Inputs & Sensing"
+    ],
+    [
       "bb499070-79cc-4923-ab18-d59186dc0d26",
       "Mechanical"
     ],
@@ -866,7 +870,7 @@
     "BRANCH": "dev",
     "BUILD_VARIANT": "DRAFT",
     "COMPANY": "Blue Devil Motor Sports",
-    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery\u2019s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
+    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "c3341ef",

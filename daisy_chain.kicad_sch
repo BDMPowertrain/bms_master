@@ -4134,6 +4134,52 @@
 		)
 		(uuid "ec0fc8c1-cf15-4722-a7d6-3f95049c0f1b")
 	)
+	(hierarchical_label "COMH{P N}"
+		(shape bidirectional)
+		(at 307.34 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29cd1f8e-acd4-42bd-a6fa-81f10c024ee9")
+		(property "Netclass" "ISO"
+			(at 308.61 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "COML{P N}"
+		(shape bidirectional)
+		(at 307.2245 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34ababca-beb2-4f29-a9a7-6c5caf1e4b89")
+		(property "Netclass" "ISO"
+			(at 308.4945 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "U1_COML{P N}"
 		(shape bidirectional)
 		(at 152.4 119.38 180)
@@ -4143,7 +4189,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2a62ca5e-c8a5-4246-8ac9-ce36f22c80d4")
+		(uuid "7e311bc5-359d-4807-92a4-61cb3ea6ad81")
 		(property "Netclass" "DAISY"
 			(at 150.495 121.92 0)
 			(show_name no)
@@ -4166,7 +4212,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9692f22b-4e78-4a23-b98e-90d8514a1c73")
+		(uuid "ab556170-b666-4528-9efb-432c5f6efc85")
 		(property "Netclass" "DAISY"
 			(at 150.495 76.2 0)
 			(show_name no)
@@ -4177,52 +4223,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(hierarchical_label "COMH{P N}"
-		(shape bidirectional)
-		(at 307.34 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a67dcbcd-dd67-4531-a21e-400ff552ca44")
-		(property "Netclass" "ISO"
-			(at 308.61 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(hierarchical_label "COML{P N}"
-		(shape bidirectional)
-		(at 307.34 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9eb4e58-97e9-4fe0-a288-4c0697334146")
-		(property "Netclass" "ISO"
-			(at 308.61 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
