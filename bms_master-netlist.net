@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-mqdg4ka4/bms_master.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-fxfmah38/bms_master.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,9 +23,9 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "c3341ef")
+			(name "GIT_HASH_PCB") "45e7b92")
 		(textvar
-			(name "GIT_HASH_SCH") "9899368")
+			(name "GIT_HASH_SCH") "45e7b92")
 		(textvar
 			(name "GIT_URL") "https://github.com/BDMPowertrain/bms_master")
 		(textvar
@@ -45,9 +45,9 @@
 		(textvar
 			(name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
 		(textvar
-			(name "RELEASE_DATE") "26-Oct-2026")
+			(name "RELEASE_DATE") "27-Oct-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-10-26")
+			(name "RELEASE_DATE_NUM") "2026-10-27")
 		(textvar
 			(name "RELEASE_TITLE_1.0.0")
 		)
@@ -67,7 +67,7 @@
 		(textvar
 			(name "SHEET_NAME_1") "Cover Page")
 		(textvar
-			(name "SHEET_NAME_10") "......................................")
+			(name "SHEET_NAME_10") "Revision History")
 		(textvar
 			(name "SHEET_NAME_11") "......................................")
 		(textvar
@@ -141,9 +141,9 @@
 		(textvar
 			(name "SHEET_NAME_7") "BMS_OK & watchdog")
 		(textvar
-			(name "SHEET_NAME_8") "Mechanical")
+			(name "SHEET_NAME_8") "Inputs & Sensing")
 		(textvar
-			(name "SHEET_NAME_9") "Revision History")
+			(name "SHEET_NAME_9") "Mechanical")
 		(sheet
 			(number "1")
 			(name "/")
@@ -437,7 +437,7 @@
 			(name "/Project Architecture/BMS_OK & watchdog/")
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			(title_block
-				(title)
+				(title "BMS_OK & Watchdog")
 				(company "Blue Devil Motor Sports")
 				(rev "+ (Unreleased)")
 				(date "Date")
@@ -482,6 +482,54 @@
 		)
 		(sheet
 			(number "8")
+			(name "/Project Architecture/Inputs & Sensing/")
+			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
+			(title_block
+				(title "Inputs & Sensing")
+				(company "Blue Devil Motor Sports")
+				(rev "+ (Unreleased)")
+				(date "Date")
+				(source "inputs_and_sensing.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "9")
 			(name "/Project Architecture/Mechanical/")
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
 			(title_block
@@ -529,7 +577,7 @@
 			)
 		)
 		(sheet
-			(number "9")
+			(number "10")
 			(name "/Revision History/")
 			(tstamps "/6e125bd6-2f99-4e5d-b3ea-4899f4540739/")
 			(title_block
@@ -691,7 +739,7 @@
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
 			)
-			(tstamps "47ae5d49-4ea1-4d6e-8131-b97ccd39f8ad")
+			(tstamps "fd137d40-8331-43bf-ac2f-2abc39acc691")
 			(units
 				(unit
 					(name "A")
@@ -819,7 +867,7 @@
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
 			)
-			(tstamps "48e43e28-b795-48b6-98f6-77856138673c")
+			(tstamps "903abc36-baff-4039-ab74-613c31c9ae62")
 			(units
 				(unit
 					(name "A")
@@ -1295,16 +1343,16 @@
 			)
 		)
 		(comp
-			(ref "J5")
-			(value "0436500200")
-			(footprint "remote_0436500200:CONN_SD-43650-001_02_MOL")
-			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
-			(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+			(ref "J7")
+			(value "0436500600")
+			(footprint "remote_0436500600:CONN_SD-43650-001_06_MOL")
+			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500600_sd.pdf?inline")
+			(description "Connector Header Through Hole, Right Angle 6 position 0.118\" (3.00mm)")
 			(fields
 				(field
 					(name "Manufacturer") "Molex")
 				(field
-					(name "Manufacturer Part Number") "0436500200")
+					(name "Manufacturer Part Number") "0436500600")
 				(field
 					(name "Vendor")
 				)
@@ -1336,16 +1384,16 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "Footprint") "remote_0436500200:CONN_SD-43650-001_02_MOL")
+					(name "Footprint") "remote_0436500600:CONN_SD-43650-001_06_MOL")
 				(field
-					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
+					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500600_sd.pdf?inline")
 				(field
-					(name "Description") "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+					(name "Description") "Connector Header Through Hole, Right Angle 6 position 0.118\" (3.00mm)")
 			)
 			(libsource
-				(lib "remote_0436500200")
-				(part "0436500200")
-				(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+				(lib "remote_0436500600")
+				(part "0436500600")
+				(description "Connector Header Through Hole, Right Angle 6 position 0.118\" (3.00mm)")
 			)
 			(property
 				(name "Manufacturer")
@@ -1353,7 +1401,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "0436500200")
+				(value "0436500600")
 			)
 			(property
 				(name "Vendor")
@@ -1403,11 +1451,19 @@
 				(name "Sheetfile")
 				(value "connectors.kicad_sch")
 			)
+			(property
+				(name "ki_keywords")
+				(value "0436500600")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CONN_SD-43650-001_09_MOL")
+			)
 			(sheetpath
 				(names "/Project Architecture/Connectors/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
 			)
-			(tstamps "1bc12a60-2519-4ffb-83f3-19ea381242df")
+			(tstamps "03b0d747-2965-43ac-9ac2-e4063cbf875f")
 			(units
 				(unit
 					(name "A")
@@ -1418,133 +1474,26 @@
 						(pin
 							(num "2")
 						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J6")
-			(value "0436500200")
-			(footprint "remote_0436500200:CONN_SD-43650-001_02_MOL")
-			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
-			(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			(fields
-				(field
-					(name "Manufacturer") "Molex")
-				(field
-					(name "Manufacturer Part Number") "0436500200")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_0436500200:CONN_SD-43650-001_02_MOL")
-				(field
-					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
-				(field
-					(name "Description") "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			)
-			(libsource
-				(lib "remote_0436500200")
-				(part "0436500200")
-				(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Molex")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "0436500200")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
-			)
-			(tstamps "c1e53a78-a501-4846-b18f-654bd197de2f")
-			(units
-				(unit
-					(name "A")
-					(pins
 						(pin
-							(num "1")
+							(num "3")
 						)
 						(pin
-							(num "2")
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
 						)
 					)
 				)
@@ -1591,6 +1540,8 @@
 				(field
 					(name "SAP Code")
 				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
 				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
@@ -1650,6 +1601,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -1728,6 +1683,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -1786,6 +1743,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -1864,6 +1825,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -1922,6 +1885,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2000,6 +1967,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -2060,6 +2029,10 @@
 				(value "")
 			)
 			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
 				(name "Sheetname")
 				(value "Com. Chip")
 			)
@@ -2079,143 +2052,7 @@
 				(names "/Project Architecture/Com. Chip/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791/")
 			)
-			(tstamps "67df808b-7099-443f-9739-b9403079f2e4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R7")
-			(value "10k")
-			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_rc0402jr-0710kl")
-				(part "RT0402BRD0710KL")
-				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW060310K0FKEA")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Com. Chip")
-			)
-			(property
-				(name "Sheetfile")
-				(value "com_chip.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Com. Chip/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791/")
-			)
-			(tstamps "46c0599b-db9f-4264-96a3-3477763e4e48")
+			(tstamps "c79a4e26-7bcd-4180-993b-95c0c15d4e8a")
 			(units
 				(unit
 					(name "A")
@@ -2271,6 +2108,8 @@
 				(field
 					(name "SAP Code")
 				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
 				(field
 					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
 				(field
@@ -2332,6 +2171,10 @@
 				(value "")
 			)
 			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
 				(name "Sheetname")
 				(value "Com. Chip")
 			)
@@ -2351,7 +2194,7 @@
 				(names "/Project Architecture/Com. Chip/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/c9d6697c-143e-4604-bd04-622cd5207791/")
 			)
-			(tstamps "4ced78ef-b814-4002-82ac-86d8a6ee58e8")
+			(tstamps "96304ca3-52a0-4d37-af59-e48d713870aa")
 			(units
 				(unit
 					(name "A")
@@ -2407,6 +2250,8 @@
 				(field
 					(name "SAP Code")
 				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
 				(field
 					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
 				(field
@@ -2466,6 +2311,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2722,6 +2571,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -2780,6 +2631,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2858,6 +2713,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -2916,6 +2773,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2994,6 +2855,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -3052,6 +2915,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3130,6 +2997,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -3188,6 +3057,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3266,6 +3139,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -3324,6 +3199,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3402,6 +3281,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -3460,6 +3341,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3538,6 +3423,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "package/gullwing")
+				(field
 					(name "Footprint") "remote_pesd5v0u2bt-qr:SOT-23-3")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT-Q.pdf")
@@ -3596,6 +3483,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "package/gullwing")
 			)
 			(property
 				(name "Sheetname")
@@ -3677,6 +3568,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "package/gullwing")
+				(field
 					(name "Footprint") "remote_pesd5v0u2bt-qr:SOT-23-3")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT-Q.pdf")
@@ -3735,6 +3628,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "package/gullwing")
 			)
 			(property
 				(name "Sheetname")
@@ -3816,6 +3713,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -3874,6 +3773,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3952,6 +3855,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -4010,6 +3915,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -4088,6 +3997,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -4146,6 +4057,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -4224,6 +4139,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -4282,6 +4199,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -4360,6 +4281,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -4418,6 +4341,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -4496,6 +4423,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -4554,6 +4483,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -4887,6 +4820,716 @@
 			)
 		)
 		(comp
+			(ref "C1")
+			(value "0.1 µF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "remote_gcm155r71h104ke02j")
+				(part "C")
+				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM155R71H104KE02J")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "87950d5f-33bf-4c1b-999d-616c1cfe4de2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "4.7 nF")
+			(footprint "remote_cga3e3x7r1h474k080ae:C_0603_1608Metric")
+			(datasheet "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf")
+			(description "4700 pF (4.7 nF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GRM1885C1H472JA01D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_cga3e3x7r1h474k080ae:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf")
+				(field
+					(name "Description") "4700 pF (4.7 nF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)")
+			)
+			(libsource
+				(lib "remote_grm1885c1h472ja01d")
+				(part "C")
+				(description "4700 pF (4.7 nF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GRM1885C1H472JA01D")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "b9d6cab7-2369-426d-9c76-c1df931ba9b9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "0.1 µF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "remote_gcm155r71h104ke02j")
+				(part "C")
+				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM155R71H104KE02J")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "ee496d12-bac3-427a-842c-cb37f708207a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "0.1 µF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "remote_gcm155r71h104ke02j")
+				(part "C")
+				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM155R71H104KE02J")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "ffe86916-9254-492b-8521-d7e711316b90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "0.1 µF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "remote_gcm155r71h104ke02j")
+				(part "C")
+				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM155R71H104KE02J")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "5877494c-e1cd-4cc3-bc03-a343279291e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "D3")
 			(value "Green")
 			(footprint "remote_ltst-c190tbkt:LED_0603_1608Metric")
@@ -4930,6 +5573,8 @@
 				(field
 					(name "SAP Code")
 				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
 				(field
 					(name "Footprint") "remote_ltst-c190tbkt:LED_0603_1608Metric")
 				(field
@@ -4993,6 +5638,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5074,6 +5723,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_ltst-c190tbkt:LED_0603_1608Metric")
 				(field
 					(name "Datasheet") "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF")
@@ -5136,6 +5787,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5217,6 +5872,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_ltst-c190tbkt:LED_0603_1608Metric")
 				(field
 					(name "Datasheet") "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf")
@@ -5279,6 +5936,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5360,6 +6021,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_ltst-c190tbkt:LED_0603_1608Metric")
 				(field
 					(name "Datasheet") "https://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf")
@@ -5422,6 +6085,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5500,6 +6167,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -5558,6 +6227,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5636,6 +6309,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -5694,6 +6369,10 @@
 			(property
 				(name "SAP Code")
 				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -5772,6 +6451,8 @@
 					(name "SAP Code")
 				)
 				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
@@ -5832,6 +6513,10 @@
 				(value "")
 			)
 			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
 				(name "Sheetname")
 				(value "BMS_OK & watchdog")
 			)
@@ -5852,6 +6537,1142 @@
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "7673df0d-14e1-4ade-ad84-967098808cdb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "100k")
+			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW0603100KFKEA")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_crcw0603100kfkea")
+				(part "R_US")
+				(description "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW0603100KFKEA")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "11c5ddde-6389-47af-a1ff-6c505dc2529a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "10k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+			(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Manufacturer Part Number") "RC0402JR-0710KL")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+				(field
+					(name "Description") "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "RC0402JR-0710KL")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "d91c3ed6-88a6-4d00-83f4-c809382ee547")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "10k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+			(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Manufacturer Part Number") "RC0402JR-0710KL")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+				(field
+					(name "Description") "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "RC0402JR-0710KL")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "b6685486-3ee5-4a72-a085-61b44c7c2b35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "10k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+			(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Manufacturer Part Number") "RC0402JR-0710KL")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+				(field
+					(name "Description") "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "RC0402JR-0710KL")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "d637a3a7-9081-4c15-89c8-8c556b69c66a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "10k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+			(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "YAGEO")
+				(field
+					(name "Manufacturer Part Number") "RC0402JR-0710KL")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
+				(field
+					(name "Description") "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "YAGEO")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "RC0402JR-0710KL")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "5a943227-16a5-49ae-82d9-cba46b0aeb68")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "1k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
+			(description "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Panasonic Industry")
+				(field
+					(name "Manufacturer Part Number") "ERJ-2RKF1001X")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
+				(field
+					(name "Description") "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_erj-2rkf1001x")
+				(part "R_US")
+				(description "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic Industry")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "ERJ-2RKF1001X")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "75ecfb6e-8709-4f24-bca3-e67dfc1dedbf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "100k")
+			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW0603100KFKEA")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_crcw0603100kfkea")
+				(part "R_US")
+				(description "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW0603100KFKEA")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "1b1978a6-b35a-4a69-8f14-9032017ae2f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "1k")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
+			(description "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Panasonic Industry")
+				(field
+					(name "Manufacturer Part Number") "ERJ-2RKF1001X")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
+				(field
+					(name "Description") "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_erj-2rkf1001x")
+				(part "R_US")
+				(description "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic Industry")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "ERJ-2RKF1001X")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "af6bba0f-75a5-4e18-8957-2c7cf26060e0")
 			(units
 				(unit
 					(name "A")
@@ -6322,6 +8143,438 @@
 				)
 			)
 		)
+		(comp
+			(ref "U7")
+			(value "SN74LVC2G04DCKR")
+			(footprint "remote_sn74lvc2g04dckr:DCK0006A_N")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc2g04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1793030780640&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc2g04")
+			(description "Inverter IC 2 Channel SC-70-6")
+			(fields
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Manufacturer Part Number") "SN74LVC2G04DCKR")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_sn74lvc2g04dckr:DCK0006A_N")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc2g04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1793030780640&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc2g04")
+				(field
+					(name "Description") "Inverter IC 2 Channel SC-70-6")
+			)
+			(libsource
+				(lib "remote_sn74lvc2g04dckr")
+				(part "SN74LVC2G04DCKR")
+				(description "Inverter IC 2 Channel SC-70-6")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "SN74LVC2G04DCKR")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "BMS_OK & watchdog")
+			)
+			(property
+				(name "Sheetfile")
+				(value "bms_ok_and_watchdog.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "SN74LVC2G04DCKR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DCK0006A_N DCK0006A_M DCK0006A_L")
+			)
+			(sheetpath
+				(names "/Project Architecture/BMS_OK & watchdog/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
+			)
+			(tstamps "b0dc07d3-f8e0-4589-9a7e-e939599b11fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TH1")
+			(value "NCP18XH103F03RB")
+			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
+			(datasheet "https://www.murata.com/-/media/webrenewal/products/thermistor/ntc/ncp/ncp18.ashx?la=ja-jp&cvid=20211118090222000000")
+			(description "THERMISTOR NTC 10KOHM 3380K 0603")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "NCP18XH103F03RB")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/-/media/webrenewal/products/thermistor/ntc/ncp/ncp18.ashx?la=ja-jp&cvid=20211118090222000000")
+				(field
+					(name "Description") "THERMISTOR NTC 10KOHM 3380K 0603")
+			)
+			(libsource
+				(lib "remote_ncp18xh103f03rb")
+				(part "NCP18XH103F03RB")
+				(description "THERMISTOR NTC 10KOHM 3380K 0603")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "NCP18XH103F03RB")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "Inputs & Sensing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "inputs_and_sensing.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res thermistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_* RV_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Inputs & Sensing/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
+			)
+			(tstamps "2fa1c62a-66dd-4146-be6f-a16813add2bd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "TLP293(GB-TPL,E")
+			(footprint "remote_tlp293_gb-tpl_e:SO4_TOS")
+			(datasheet "https://toshiba.semicon-storage.com/info/TLP293_datasheet_en_20260805.pdf?did=14419&prodName=TLP293")
+			(description "OPTOISOLTR 3.75KV 1CH TRANS 4-SO")
+			(fields
+				(field
+					(name "Manufacturer") "Toshiba Semiconductor and Storage")
+				(field
+					(name "Manufacturer Part Number") "TLP293(GB-TPL,E")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_tlp293_gb-tpl_e:SO4_TOS")
+				(field
+					(name "Datasheet") "https://toshiba.semicon-storage.com/info/TLP293_datasheet_en_20260805.pdf?did=14419&prodName=TLP293")
+				(field
+					(name "Description") "OPTOISOLTR 3.75KV 1CH TRANS 4-SO")
+			)
+			(libsource
+				(lib "remote_tlp293_gb-tpl_e")
+				(part "TLP293GB-TPL_E")
+				(description "OPTOISOLTR 3.75KV 1CH TRANS 4-SO")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Toshiba Semiconductor and Storage")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "TLP293(GB-TPL,E")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Inputs & Sensing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "inputs_and_sensing.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "TLP293(GB-TPL,E")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SO4_TOS SO4_TOS-M SO4_TOS-L")
+			)
+			(sheetpath
+				(names "/Project Architecture/Inputs & Sensing/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
+			)
+			(tstamps "050de71c-eb83-44f2-944c-62645895579c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
@@ -6727,6 +8980,108 @@
 				(pin
 					(num "2")
 					(name "2")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "remote_0436500600")
+			(part "0436500600")
+			(description "Connector Header Through Hole, Right Angle 6 position 0.118\" (3.00mm)")
+			(docs "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500600_sd.pdf?inline")
+			(footprints
+				(fp "CONN_SD-43650-001_09_MOL")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "0436500600")
+				(field
+					(name "Footprint") "remote_0436500600:CONN_SD-43650-001_06_MOL")
+				(field
+					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500600_sd.pdf?inline")
+				(field
+					(name "Description") "Connector Header Through Hole, Right Angle 6 position 0.118\" (3.00mm)")
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Manufacturer Part Number") "0436500600")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "9")
 					(type "unspecified")
 				)
 			)
@@ -7340,6 +9695,73 @@
 			)
 		)
 		(libpart
+			(lib "remote_grm1885c1h472ja01d")
+			(part "C")
+			(description "4700 pF (4.7 nF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)")
+			(docs "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "4.7 nF")
+				(field
+					(name "Footprint") "remote_cga3e3x7r1h474k080ae:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf")
+				(field
+					(name "Description") "4700 pF (4.7 nF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GRM1885C1H472JA01D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_ltst-c190kgkt")
 			(part "LED")
 			(description "Green 572nm LED Indication - Discrete 2.15V 0603 (1608 Metric)")
@@ -7484,6 +9906,74 @@
 			)
 		)
 		(libpart
+			(lib "remote_ncp18xh103f03rb")
+			(part "NCP18XH103F03RB")
+			(description "THERMISTOR NTC 10KOHM 3380K 0603")
+			(docs "https://www.murata.com/-/media/webrenewal/products/thermistor/ntc/ncp/ncp18.ashx?la=ja-jp&cvid=20211118090222000000")
+			(footprints
+				(fp "R_*")
+				(fp "RV_*")
+			)
+			(fields
+				(field
+					(name "Reference") "TH")
+				(field
+					(name "Value") "NCP18XH103F03RB")
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/-/media/webrenewal/products/thermistor/ntc/ncp/ncp18.ashx?la=ja-jp&cvid=20211118090222000000")
+				(field
+					(name "Description") "THERMISTOR NTC 10KOHM 3380K 0603")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "NCP18XH103F03RB")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_pesd5v0u2bt-qr")
 			(part "PESD5V0U2BT-QR")
 			(description "Clamp Ipp Tvs Diode Surface Mount TO-236AB, TVS DIODE 5VWM TO236AB")
@@ -7560,8 +10050,8 @@
 		(libpart
 			(lib "remote_rc0402jr-0710kl")
 			(part "RT0402BRD0710KL")
-			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			(docs "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
+			(docs "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
 			(footprints
 				(fp "R_*")
 			)
@@ -7571,15 +10061,15 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
 				(field
-					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+					(name "Description") "10 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film")
 				(field
-					(name "Manufacturer") "Vishay Dale")
+					(name "Manufacturer") "YAGEO")
 				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
+					(name "Manufacturer Part Number") "RC0402JR-0710KL")
 				(field
 					(name "Vendor")
 				)
@@ -7887,6 +10377,95 @@
 			)
 		)
 		(libpart
+			(lib "remote_sn74lvc2g04dckr")
+			(part "SN74LVC2G04DCKR")
+			(description "Inverter IC 2 Channel SC-70-6")
+			(docs "https://www.ti.com/lit/ds/symlink/sn74lvc2g04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1793030780640&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc2g04")
+			(footprints
+				(fp "DCK0006A_N")
+				(fp "DCK0006A_M")
+				(fp "DCK0006A_L")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74LVC2G04DCKR")
+				(field
+					(name "Footprint") "remote_sn74lvc2g04dckr:DCK0006A_N")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc2g04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1793030780640&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc2g04")
+				(field
+					(name "Description") "Inverter IC 2 Channel SC-70-6")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Manufacturer Part Number") "SN74LVC2G04DCKR")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1A")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "2A")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "2Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "1Y")
+					(type "output")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_tfm-115-02-s-d-wt")
 			(part "TFM-115-02-S-D-WT")
 			(description "Connector Header Surface Mount 30 position 0.050\" (1.27mm)")
@@ -8097,6 +10676,85 @@
 			)
 		)
 		(libpart
+			(lib "remote_tlp293_gb-tpl_e")
+			(part "TLP293GB-TPL_E")
+			(description "OPTOISOLTR 3.75KV 1CH TRANS 4-SO")
+			(docs "https://toshiba.semicon-storage.com/info/TLP293_datasheet_en_20260805.pdf?did=14419&prodName=TLP293")
+			(footprints
+				(fp "SO4_TOS")
+				(fp "SO4_TOS-M")
+				(fp "SO4_TOS-L")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLP293(GB-TPL,E")
+				(field
+					(name "Footprint") "remote_tlp293_gb-tpl_e:SO4_TOS")
+				(field
+					(name "Datasheet") "https://toshiba.semicon-storage.com/info/TLP293_datasheet_en_20260805.pdf?did=14419&prodName=TLP293")
+				(field
+					(name "Description") "OPTOISOLTR 3.75KV 1CH TRANS 4-SO")
+				(field
+					(name "Manufacturer") "Toshiba Semiconductor and Storage")
+				(field
+					(name "Manufacturer Part Number") "TLP293(GB-TPL,E")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_tps3430wdrcr")
 			(part "TPS3430WDRCR")
 			(description "Watchdog Circuit IC 10-VSON (3x3)")
@@ -8217,6 +10875,26 @@
 			(name "+3V3")
 			(class "Default")
 			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "C8")
 				(pin "1")
 				(pintype "passive")
@@ -8234,8 +10912,18 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "R12")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -8248,6 +10936,18 @@
 				(pin "3")
 				(pinfunction "VIO_3")
 				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
 			)
 			(node
 				(ref "U6")
@@ -8266,6 +10966,12 @@
 				(pin "6")
 				(pinfunction "SET1_6")
 				(pintype "input")
+			)
+			(node
+				(ref "U7")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
 			)
 		)
 		(net
@@ -8290,11 +10996,6 @@
 			(name "+12V")
 			(class "Default")
 			(node
-				(ref "C10")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "J3")
 				(pin "01")
 				(pinfunction "12V_01")
@@ -8314,8 +11015,133 @@
 		)
 		(net
 			(code "4")
+			(name "/Project Architecture/BMS_OK & watchdog/BMS_OK")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "5")
+			(name "/Project Architecture/BMS_OK & watchdog/FB.BMS_OK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "GPIO_6_19")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/Project Architecture/BMS_OK & watchdog/FB.NFAULT")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "GPIO_3_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "2A_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "/Project Architecture/BMS_OK & watchdog/FB.WDT_OK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "20")
+				(pinfunction "GPIO_7_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "1A_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/Project Architecture/BMS_OK & watchdog/NFAULT")
+			(class "Default")
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "NFAULT_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "C_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
 			(name "/Project Architecture/BMS_OK & watchdog/WDT_CRST")
 			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
 			(node
 				(ref "U6")
 				(pin "4")
@@ -8324,9 +11150,69 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "11")
+			(name "/Project Architecture/BMS_OK & watchdog/WDT_KICK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "18")
+				(pinfunction "GPIO_5_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "7")
+				(pinfunction "WDI_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/Project Architecture/BMS_OK & watchdog/WDT_OK")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U6")
+				(pin "8")
+				(pinfunction "WDO_N_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
 			(name "/Project Architecture/Com. Chip/BAT")
 			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "R8")
 				(pin "1")
@@ -8346,7 +11232,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "14")
 			(name "/Project Architecture/Com. Chip/CVDD")
 			(class "Default")
 			(node
@@ -8362,7 +11248,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "15")
 			(name "/Project Architecture/Com. Chip/DVDD")
 			(class "Default")
 			(node
@@ -8378,69 +11264,15 @@
 			)
 		)
 		(net
-			(code "9")
-			(name "/Project Architecture/Com. Chip/NFAULT")
+			(code "16")
+			(name "/Project Architecture/Com. Chip/SPI.MISO")
 			(class "Default")
 			(node
-				(ref "R9")
-				(pin "1")
+				(ref "J3")
+				(pin "22")
+				(pinfunction "SPI_MISO_22")
 				(pintype "passive")
 			)
-			(node
-				(ref "U1")
-				(pin "2")
-				(pinfunction "NFAULT_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "10")
-			(name "/Project Architecture/Com. Chip/U1_COMH.N")
-			(class "DAISY,Default")
-			(node
-				(ref "U1")
-				(pin "12")
-				(pinfunction "COMHN_12")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "11")
-			(name "/Project Architecture/Com. Chip/U1_COMH.P")
-			(class "DAISY,Default")
-			(node
-				(ref "U1")
-				(pin "13")
-				(pinfunction "COMHP_13")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "13")
-			(name "/Project Architecture/Com. Chip/U1_COML.N")
-			(class "DAISY,Default")
-			(node
-				(ref "U1")
-				(pin "11")
-				(pinfunction "COMLN_11")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "14")
-			(name "/Project Architecture/Com. Chip/U1_COML.P")
-			(class "DAISY,Default")
-			(node
-				(ref "U1")
-				(pin "10")
-				(pinfunction "COMLP_10")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "16")
-			(name "/Project Architecture/Com. Chip/U1_SPI.MISO")
-			(class "Default")
 			(node
 				(ref "U1")
 				(pin "5")
@@ -8450,8 +11282,14 @@
 		)
 		(net
 			(code "17")
-			(name "/Project Architecture/Com. Chip/U1_SPI.MOSI")
+			(name "/Project Architecture/Com. Chip/SPI.MOSI")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "21")
+				(pinfunction "SPI_MOSI_21")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "4")
@@ -8461,8 +11299,14 @@
 		)
 		(net
 			(code "18")
-			(name "/Project Architecture/Com. Chip/U1_SPI.RDY")
+			(name "/Project Architecture/Com. Chip/SPI.RDY")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "15")
+				(pinfunction "GPIO_2_15")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "8")
@@ -8472,8 +11316,14 @@
 		)
 		(net
 			(code "19")
-			(name "/Project Architecture/Com. Chip/U1_SPI.SCLK")
+			(name "/Project Architecture/Com. Chip/SPI.SCLK")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "26")
+				(pinfunction "SPI_SCK_26")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "6")
@@ -8483,8 +11333,14 @@
 		)
 		(net
 			(code "20")
-			(name "/Project Architecture/Com. Chip/U1_SPI.nCS")
+			(name "/Project Architecture/Com. Chip/SPI.nCS")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "14")
+				(pinfunction "GPIO_1_14")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "7")
@@ -8494,7 +11350,111 @@
 		)
 		(net
 			(code "22")
-			(name "/Project Architecture/Connectors/ADC1_IN1")
+			(name "/Project Architecture/Com. Chip/U1_COMH.N")
+			(class "DAISY,Default")
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "COMHN_12")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "23")
+			(name "/Project Architecture/Com. Chip/U1_COMH.P")
+			(class "DAISY,Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "COMHP_13")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "25")
+			(name "/Project Architecture/Com. Chip/U1_COML.N")
+			(class "DAISY,Default")
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "COMLN_11")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "26")
+			(name "/Project Architecture/Com. Chip/U1_COML.P")
+			(class "DAISY,Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "COMLP_10")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "28")
+			(name "/Project Architecture/Connectors/BOARD_TEMP")
 			(class "Default")
 			(node
 				(ref "J4")
@@ -8510,330 +11470,19 @@
 			)
 		)
 		(net
-			(code "23")
-			(name "/Project Architecture/Connectors/ADC1_IN2")
+			(code "29")
+			(name "/Project Architecture/Connectors/CHG_MODE")
 			(class "Default")
 			(node
-				(ref "J4")
-				(pin "05")
-				(pinfunction "ADC1_IN2_05")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "06")
-				(pinfunction "ADC1_IN2_06")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "24")
-			(name "/Project Architecture/Connectors/ADC1_IN3")
-			(class "Default")
-			(node
-				(ref "J4")
-				(pin "09")
-				(pinfunction "ADC1_IN3_09")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "10")
-				(pinfunction "ADC1_IN3_10")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "25")
-			(name "/Project Architecture/Connectors/ADC1_IN4")
-			(class "Default")
-			(node
-				(ref "J4")
-				(pin "13")
-				(pinfunction "ADC1_IN4_13")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "14")
-				(pinfunction "ADC1_IN4_14")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "26")
-			(name "/Project Architecture/Connectors/ADC2_IN5")
-			(class "Default")
-			(node
-				(ref "J4")
-				(pin "17")
-				(pinfunction "ADC2_IN5_17")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "18")
-				(pinfunction "ADC2_IN5_18")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "27")
-			(name "/Project Architecture/Connectors/COMH.N")
-			(class "ISO,Default")
-			(node
-				(ref "J2")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "28")
-			(name "/Project Architecture/Connectors/COMH.P")
-			(class "ISO,Default")
-			(node
-				(ref "J2")
-				(pin "2")
-				(pinfunction "2_2")
+				(ref "J7")
+				(pin "3")
+				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 		)
 		(net
 			(code "30")
-			(name "/Project Architecture/Connectors/COML.N")
-			(class "ISO,Default")
-			(node
-				(ref "J1")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "31")
-			(name "/Project Architecture/Connectors/COML.P")
-			(class "ISO,Default")
-			(node
-				(ref "J1")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "33")
-			(name "/Project Architecture/Connectors/DAC1_OUT1")
-			(class "Default")
-			(node
-				(ref "J4")
-				(pin "25")
-				(pinfunction "DAC1_OUT1_25")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "26")
-				(pinfunction "DAC1_OUT1_26")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "34")
-			(name "/Project Architecture/Connectors/DAC1_OUT2")
-			(class "Default")
-			(node
-				(ref "J4")
-				(pin "21")
-				(pinfunction "DAC1_OUT2_21")
-				(pintype "passive")
-			)
-			(node
-				(ref "J4")
-				(pin "22")
-				(pinfunction "DAC1_OUT2_22")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "35")
-			(name "/Project Architecture/Connectors/GPIO_1")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "14")
-				(pinfunction "GPIO_1_14")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "36")
-			(name "/Project Architecture/Connectors/GPIO_2")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "15")
-				(pinfunction "GPIO_2_15")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "37")
-			(name "/Project Architecture/Connectors/GPIO_3")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "16")
-				(pinfunction "GPIO_3_16")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "38")
-			(name "/Project Architecture/Connectors/GPIO_4")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "17")
-				(pinfunction "GPIO_4_17")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "39")
-			(name "/Project Architecture/Connectors/GPIO_5")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "18")
-				(pinfunction "GPIO_5_18")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "40")
-			(name "/Project Architecture/Connectors/GPIO_6")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "19")
-				(pinfunction "GPIO_6_19")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "41")
-			(name "/Project Architecture/Connectors/GPIO_7")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "20")
-				(pinfunction "GPIO_7_20")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "42")
-			(name "/Project Architecture/Connectors/I2C1_SCL")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "29")
-				(pinfunction "I2C1_SCL_29")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "43")
-			(name "/Project Architecture/Connectors/I2C1_SDA")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "30")
-				(pinfunction "I2C1_SDA_30")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "44")
-			(name "/Project Architecture/Connectors/SPI_MISO")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "22")
-				(pinfunction "SPI_MISO_22")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "45")
-			(name "/Project Architecture/Connectors/SPI_MOSI")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "21")
-				(pinfunction "SPI_MOSI_21")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "46")
-			(name "/Project Architecture/Connectors/SPI_SCK")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "26")
-				(pinfunction "SPI_SCK_26")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "47")
-			(name "/Project Architecture/Connectors/TIM1_CH1")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "09")
-				(pinfunction "TIM1_CH1_09")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "48")
-			(name "/Project Architecture/Connectors/TIM1_CH2")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "10")
-				(pinfunction "TIM1_CH2_10")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "49")
-			(name "/Project Architecture/Connectors/TIM1_CH3")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "11")
-				(pinfunction "TIM1_CH3_11")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "50")
-			(name "/Project Architecture/Connectors/TIM2_CH1")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "12")
-				(pinfunction "TIM2_CH1_12")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "51")
-			(name "/Project Architecture/Connectors/TIM2_CH3")
+			(name "/Project Architecture/Connectors/CHG_MODE_N")
 			(class "Default")
 			(node
 				(ref "J3")
@@ -8843,7 +11492,126 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "31")
+			(name "/Project Architecture/Connectors/COMH.N")
+			(class "ISO,Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "32")
+			(name "/Project Architecture/Connectors/COMH.P")
+			(class "ISO,Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "34")
+			(name "/Project Architecture/Connectors/COML.N")
+			(class "ISO,Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "35")
+			(name "/Project Architecture/Connectors/COML.P")
+			(class "ISO,Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "37")
+			(name "/Project Architecture/Connectors/MCU_BMS_OK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "17")
+				(pinfunction "GPIO_4_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "38")
+			(name "/Project Architecture/Connectors/SDC_OK_N")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "12")
+				(pinfunction "TIM2_CH1_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "/Project Architecture/Connectors/SDC_SENSE")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "40")
+			(name "/Project Architecture/Connectors/SDC_SENSE_RTN")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "41")
 			(name "/Project Architecture/Daisy Chain/COMH.CT")
 			(class "ISO,Default")
 			(node
@@ -8853,27 +11621,7 @@
 			)
 		)
 		(net
-			(code "59")
-			(name "/Project Architecture/Daisy Chain/COMH.N")
-			(class "ISO,Default")
-			(node
-				(ref "U2")
-				(pin "4")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "60")
-			(name "/Project Architecture/Daisy Chain/COMH.P")
-			(class "ISO,Default")
-			(node
-				(ref "U2")
-				(pin "6")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "61")
+			(code "42")
 			(name "/Project Architecture/Daisy Chain/COMH_CT")
 			(class "DAISY,Default")
 			(node
@@ -8888,7 +11636,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "43")
 			(name "/Project Architecture/Daisy Chain/COMH_WN")
 			(class "DAISY,Default")
 			(node
@@ -8908,7 +11656,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "44")
 			(name "/Project Architecture/Daisy Chain/COMH_WP")
 			(class "DAISY,Default")
 			(node
@@ -8928,7 +11676,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "45")
 			(name "/Project Architecture/Daisy Chain/COML.CT")
 			(class "ISO,Default")
 			(node
@@ -8938,27 +11686,7 @@
 			)
 		)
 		(net
-			(code "66")
-			(name "/Project Architecture/Daisy Chain/COML.N")
-			(class "ISO,Default")
-			(node
-				(ref "U3")
-				(pin "6")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "67")
-			(name "/Project Architecture/Daisy Chain/COML.P")
-			(class "ISO,Default")
-			(node
-				(ref "U3")
-				(pin "4")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "68")
+			(code "46")
 			(name "/Project Architecture/Daisy Chain/COML_CT")
 			(class "DAISY,Default")
 			(node
@@ -8973,7 +11701,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "47")
 			(name "/Project Architecture/Daisy Chain/COML_WN")
 			(class "DAISY,Default")
 			(node
@@ -8993,7 +11721,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "48")
 			(name "/Project Architecture/Daisy Chain/COML_WP")
 			(class "DAISY,Default")
 			(node
@@ -9013,92 +11741,17 @@
 			)
 		)
 		(net
-			(code "72")
-			(name "/Project Architecture/Daisy Chain/U1_COMH.N")
-			(class "DAISY,Default")
-			(node
-				(ref "C11")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R4")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "73")
-			(name "/Project Architecture/Daisy Chain/U1_COMH.P")
-			(class "DAISY,Default")
-			(node
-				(ref "C13")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R3")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "75")
-			(name "/Project Architecture/Daisy Chain/U1_COML.N")
-			(class "DAISY,Default")
-			(node
-				(ref "C14")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R5")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "76")
-			(name "/Project Architecture/Daisy Chain/U1_COML.P")
-			(class "DAISY,Default")
-			(node
-				(ref "C12")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R6")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "78")
+			(code "49")
 			(name "GND")
 			(class "Default")
 			(node
-				(ref "C10")
+				(ref "C1")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -9119,6 +11772,26 @@
 			(node
 				(ref "C14")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -9155,6 +11828,18 @@
 				(ref "D2")
 				(pin "3")
 				(pintype "unspecified")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
 			)
 			(node
 				(ref "J3")
@@ -9295,16 +11980,36 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J5")
+				(ref "J7")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J6")
-				(pin "2")
-				(pinfunction "2_2")
+				(ref "J7")
+				(pin "4")
+				(pinfunction "4_4")
 				(pintype "unspecified")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
 			)
 			(node
 				(ref "U1")
@@ -9313,14 +12018,142 @@
 				(pintype "unspecified")
 			)
 			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "11")
+				(pinfunction "PAD_11")
+				(pintype "power_in")
+			)
+			(node
 				(ref "U6")
 				(pin "3")
 				(pinfunction "SET0_3")
 				(pintype "input")
 			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
 		)
 		(net
-			(code "79")
+			(code "50")
+			(name "Net-(D3-A)")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "Net-(D4-A)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(D5-A)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "6")
+				(pinfunction "1Y_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(D5-K)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(D6-A)")
+			(class "Default")
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "4")
+				(pinfunction "2Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(D6-K)")
+			(class "Default")
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
 			(name "Net-(U6-CWD)")
 			(class "Default")
 			(node
@@ -9336,349 +12169,272 @@
 			)
 		)
 		(net
-			(code "80")
-			(name "unconnected-(D3-A-Pad2)")
+			(code "57")
+			(name "unconnected-(J3-I2C1_SCL-Pad29)")
 			(class "Default")
 			(node
-				(ref "D3")
+				(ref "J3")
+				(pin "29")
+				(pinfunction "I2C1_SCL_29")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J3-I2C1_SDA-Pad30)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "30")
+				(pinfunction "I2C1_SDA_30")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(J3-TIM1_CH1-Pad09)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "09")
+				(pinfunction "TIM1_CH1_09")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(J3-TIM1_CH2-Pad10)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "10")
+				(pinfunction "TIM1_CH2_10")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(J3-TIM1_CH3-Pad11)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "11")
+				(pinfunction "TIM1_CH3_11")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(J4-ADC1_IN2-Pad05)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "05")
+				(pinfunction "ADC1_IN2_05")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J4-ADC1_IN2-Pad06)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "06")
+				(pinfunction "ADC1_IN2_06")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J4-ADC1_IN3-Pad09)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "09")
+				(pinfunction "ADC1_IN3_09")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J4-ADC1_IN3-Pad10)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "10")
+				(pinfunction "ADC1_IN3_10")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(J4-ADC1_IN4-Pad13)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "13")
+				(pinfunction "ADC1_IN4_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(J4-ADC1_IN4-Pad14)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "14")
+				(pinfunction "ADC1_IN4_14")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(J4-ADC2_IN5-Pad17)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "17")
+				(pinfunction "ADC2_IN5_17")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(J4-ADC2_IN5-Pad18)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "18")
+				(pinfunction "ADC2_IN5_18")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(J4-DAC1_OUT1-Pad25)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "25")
+				(pinfunction "DAC1_OUT1_25")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(J4-DAC1_OUT1-Pad26)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "26")
+				(pinfunction "DAC1_OUT1_26")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(J4-DAC1_OUT2-Pad21)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "21")
+				(pinfunction "DAC1_OUT2_21")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(J4-DAC1_OUT2-Pad22)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "22")
+				(pinfunction "DAC1_OUT2_22")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(TH1-Pad1)")
+			(class "Default")
+			(node
+				(ref "TH1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(TH1-Pad2)")
+			(class "Default")
+			(node
+				(ref "TH1")
 				(pin "2")
-				(pinfunction "A_2")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "81")
-			(name "unconnected-(D3-K-Pad1)")
-			(class "Default")
-			(node
-				(ref "D3")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "82")
-			(name "unconnected-(D4-A-Pad2)")
-			(class "Default")
-			(node
-				(ref "D4")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "83")
-			(name "unconnected-(D4-K-Pad1)")
-			(class "Default")
-			(node
-				(ref "D4")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "84")
-			(name "unconnected-(D5-A-Pad2)")
-			(class "Default")
-			(node
-				(ref "D5")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "85")
-			(name "unconnected-(D5-K-Pad1)")
-			(class "Default")
-			(node
-				(ref "D5")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "86")
-			(name "unconnected-(D6-A-Pad2)")
-			(class "Default")
-			(node
-				(ref "D6")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "87")
-			(name "unconnected-(D6-K-Pad1)")
-			(class "Default")
-			(node
-				(ref "D6")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "88")
-			(name "unconnected-(J5-Pad1)")
-			(class "Default")
-			(node
-				(ref "J5")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "89")
-			(name "unconnected-(J6-Pad1)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "90")
-			(name "unconnected-(R7-Pad1)")
-			(class "Default")
-			(node
-				(ref "R7")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "91")
-			(name "unconnected-(R7-Pad2)")
-			(class "Default")
-			(node
-				(ref "R7")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "92")
-			(name "unconnected-(R10-Pad1)")
-			(class "Default")
-			(node
-				(ref "R10")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "93")
-			(name "unconnected-(R10-Pad2)")
-			(class "Default")
-			(node
-				(ref "R10")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "94")
-			(name "unconnected-(R11-Pad1)")
-			(class "Default")
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "95")
-			(name "unconnected-(R11-Pad2)")
-			(class "Default")
-			(node
-				(ref "R11")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "96")
-			(name "unconnected-(U4-A-Pad1)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "1")
-				(pinfunction "A_1")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "97")
-			(name "unconnected-(U4-B-Pad3)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "3")
-				(pinfunction "B_3")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "98")
-			(name "unconnected-(U4-C-Pad6)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "6")
-				(pinfunction "C_6")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "99")
-			(name "unconnected-(U4-GND-Pad2)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "2")
-				(pinfunction "GND_2")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "100")
-			(name "unconnected-(U4-VCC-Pad5)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "5")
-				(pinfunction "VCC_5")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "101")
-			(name "unconnected-(U4-Y-Pad4)")
-			(class "Default")
-			(node
-				(ref "U4")
-				(pin "4")
-				(pinfunction "Y_4")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "102")
-			(name "unconnected-(U5-A-Pad2)")
-			(class "Default")
-			(node
-				(ref "U5")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "103")
-			(name "unconnected-(U5-GND-Pad3)")
-			(class "Default")
-			(node
-				(ref "U5")
-				(pin "3")
-				(pinfunction "GND_3")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "104")
+			(code "76")
 			(name "unconnected-(U5-NC-Pad1)")
 			(class "Default")
 			(node
 				(ref "U5")
 				(pin "1")
 				(pinfunction "NC_1")
-				(pintype "unspecified")
+				(pintype "unspecified+no_connect")
 			)
 		)
 		(net
-			(code "105")
-			(name "unconnected-(U5-VCC-Pad5)")
-			(class "Default")
-			(node
-				(ref "U5")
-				(pin "5")
-				(pinfunction "VCC_5")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "106")
-			(name "unconnected-(U5-Y-Pad4)")
-			(class "Default")
-			(node
-				(ref "U5")
-				(pin "4")
-				(pinfunction "Y_4")
-				(pintype "output")
-			)
-		)
-		(net
-			(code "107")
-			(name "unconnected-(U6-GND-Pad5)")
-			(class "Default")
-			(node
-				(ref "U6")
-				(pin "5")
-				(pinfunction "GND_5")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "108")
+			(code "77")
 			(name "unconnected-(U6-NC-Pad9)")
 			(class "Default")
 			(node
 				(ref "U6")
 				(pin "9")
 				(pinfunction "NC_9")
+				(pintype "unspecified+no_connect")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U8-Pad1)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "1")
 				(pintype "unspecified")
 			)
 		)
 		(net
-			(code "109")
-			(name "unconnected-(U6-PAD-Pad11)")
+			(code "79")
+			(name "unconnected-(U8-Pad2)")
 			(class "Default")
 			(node
-				(ref "U6")
-				(pin "11")
-				(pinfunction "PAD_11")
-				(pintype "power_in")
+				(ref "U8")
+				(pin "2")
+				(pintype "unspecified")
 			)
 		)
 		(net
-			(code "110")
-			(name "unconnected-(U6-WDI-Pad7)")
+			(code "80")
+			(name "unconnected-(U8-Pad3)")
 			(class "Default")
 			(node
-				(ref "U6")
-				(pin "7")
-				(pinfunction "WDI_7")
-				(pintype "input")
+				(ref "U8")
+				(pin "3")
+				(pintype "unspecified")
 			)
 		)
 		(net
-			(code "111")
-			(name "unconnected-(U6-WDO_N-Pad8)")
+			(code "81")
+			(name "unconnected-(U8-Pad4)")
 			(class "Default")
 			(node
-				(ref "U6")
-				(pin "8")
-				(pinfunction "WDO_N_8")
-				(pintype "output")
+				(ref "U8")
+				(pin "4")
+				(pintype "unspecified")
 			)
 		)
 	)
