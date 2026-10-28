@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-cczpzt8u/bms_master.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-rr4mvqmj/bms_master.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,7 +23,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "3005aae")
+			(name "GIT_HASH_PCB") "5eaaa2e")
 		(textvar
 			(name "GIT_HASH_SCH") "45e7b92")
 		(textvar
@@ -139,7 +139,7 @@
 		(textvar
 			(name "SHEET_NAME_6") "Daisy Chain")
 		(textvar
-			(name "SHEET_NAME_7") "BMS_OK & watchdog")
+			(name "SHEET_NAME_7") "BMS_OK & Indicators")
 		(textvar
 			(name "SHEET_NAME_8") "Inputs & Sensing")
 		(textvar
@@ -434,14 +434,14 @@
 		)
 		(sheet
 			(number "7")
-			(name "/Project Architecture/BMS_OK & watchdog/")
+			(name "/Project Architecture/BMS_OK & Indicators/")
 			(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			(title_block
-				(title "BMS_OK & Watchdog")
+				(title "BMS_OK & Indicators")
 				(company "Blue Devil Motor Sports")
 				(rev "+ (Unreleased)")
 				(date "Date")
-				(source "bms_ok_and_watchdog.kicad_sch")
+				(source "bms_ok_and_indicators.kicad_sch")
 				(comment
 					(number "1")
 					(value "")
@@ -5782,11 +5782,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5797,7 +5797,7 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "ffe86916-9254-492b-8521-d7e711316b90")
@@ -5924,11 +5924,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -5939,7 +5939,7 @@
 				(value "C_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "5877494c-e1cd-4cc3-bc03-a343279291e4")
@@ -6073,11 +6073,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6088,7 +6088,7 @@
 				(value "LED* LED_SMD:* LED_THT:*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "9ea2b677-c3a1-42f0-b358-1216f54a87a2")
@@ -6222,11 +6222,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6237,7 +6237,7 @@
 				(value "LED* LED_SMD:* LED_THT:*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "cfe92ecd-91c6-422d-bafb-4518fb97aa64")
@@ -6371,11 +6371,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6386,7 +6386,7 @@
 				(value "LED* LED_SMD:* LED_THT:*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "75f9cb65-7b39-4c39-9985-a89910ffafcf")
@@ -6520,11 +6520,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6535,7 +6535,7 @@
 				(value "LED* LED_SMD:* LED_THT:*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "34a2b1e5-a4dd-4def-900a-7c2e735b919f")
@@ -6662,11 +6662,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6677,7 +6677,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "c7589aa2-afb9-4c0c-97fc-56eb46242f7d")
@@ -6804,11 +6804,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6819,7 +6819,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "5ecba691-9020-40af-b80a-f62f367ecba6")
@@ -6946,11 +6946,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -6961,7 +6961,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "b6685486-3ee5-4a72-a085-61b44c7c2b35")
@@ -7088,11 +7088,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7103,7 +7103,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "d637a3a7-9081-4c15-89c8-8c556b69c66a")
@@ -7230,11 +7230,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7245,7 +7245,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "5a943227-16a5-49ae-82d9-cba46b0aeb68")
@@ -7372,11 +7372,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7387,7 +7387,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "75ecfb6e-8709-4f24-bca3-e67dfc1dedbf")
@@ -7514,11 +7514,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7529,7 +7529,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "af6bba0f-75a5-4e18-8957-2c7cf26060e0")
@@ -7656,11 +7656,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7671,7 +7671,7 @@
 				(value "R_*")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "8f34c528-ae9d-4120-80e2-2493272fd3f1")
@@ -7792,11 +7792,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7807,7 +7807,7 @@
 				(value "DBV5 DBV5-M DBV5-L")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "97c2ed2c-3585-4ee0-b4a3-a580aa4ed19a")
@@ -7937,11 +7937,11 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(property
 				(name "ki_keywords")
@@ -7952,7 +7952,7 @@
 				(value "DCK0006A_N DCK0006A_M DCK0006A_L")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "b0dc07d3-f8e0-4589-9a7e-e939599b11fd")
@@ -8120,14 +8120,14 @@
 			)
 			(property
 				(name "Sheetname")
-				(value "BMS_OK & watchdog")
+				(value "BMS_OK & Indicators")
 			)
 			(property
 				(name "Sheetfile")
-				(value "bms_ok_and_watchdog.kicad_sch")
+				(value "bms_ok_and_indicators.kicad_sch")
 			)
 			(sheetpath
-				(names "/Project Architecture/BMS_OK & watchdog/")
+				(names "/Project Architecture/BMS_OK & Indicators/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/171c5d79-4c15-4ec3-a1b7-6f0eaa461925/")
 			)
 			(tstamps "1a1b1198-baaf-4758-b595-2558df2d9420")
@@ -12507,7 +12507,7 @@
 		)
 		(net
 			(code "4")
-			(name "/Project Architecture/BMS_OK & watchdog/BMS_OK")
+			(name "/Project Architecture/BMS_OK & Indicators/BMS_OK")
 			(class "Default")
 			(node
 				(ref "J7")
@@ -12528,7 +12528,7 @@
 		)
 		(net
 			(code "5")
-			(name "/Project Architecture/BMS_OK & watchdog/BMS_OK_LOGIC")
+			(name "/Project Architecture/BMS_OK & Indicators/BMS_OK_LOGIC")
 			(class "Default")
 			(node
 				(ref "R11")
@@ -12554,8 +12554,14 @@
 		)
 		(net
 			(code "6")
-			(name "/Project Architecture/BMS_OK & watchdog/FB.BMS_OK")
+			(name "/Project Architecture/BMS_OK & Indicators/FB.BMS_OK")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "GPIO_6_19")
+				(pintype "passive")
+			)
 			(node
 				(ref "R16")
 				(pin "2")
@@ -12570,8 +12576,14 @@
 		)
 		(net
 			(code "7")
-			(name "/Project Architecture/BMS_OK & watchdog/FB.NFAULT")
+			(name "/Project Architecture/BMS_OK & Indicators/FB.NFAULT")
 			(class "Default")
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "GPIO_3_16")
+				(pintype "passive")
+			)
 			(node
 				(ref "R17")
 				(pin "2")
@@ -12586,7 +12598,7 @@
 		)
 		(net
 			(code "9")
-			(name "/Project Architecture/BMS_OK & watchdog/NFAULT")
+			(name "/Project Architecture/BMS_OK & Indicators/NFAULT")
 			(class "Default")
 			(node
 				(ref "R17")
@@ -13029,28 +13041,6 @@
 		)
 		(net
 			(code "34")
-			(name "/Project Architecture/Connectors/FB.BMS_OK")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "19")
-				(pinfunction "GPIO_6_19")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "35")
-			(name "/Project Architecture/Connectors/FB.NFAULT")
-			(class "Default")
-			(node
-				(ref "J3")
-				(pin "16")
-				(pinfunction "GPIO_3_16")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "37")
 			(name "/Project Architecture/Connectors/MCU_BMS_OK")
 			(class "Default")
 			(node
@@ -13072,7 +13062,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "35")
 			(name "/Project Architecture/Connectors/SDC_OK_N")
 			(class "Default")
 			(node
@@ -13098,7 +13088,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "36")
 			(name "/Project Architecture/Connectors/SDC_SENSE")
 			(class "Default")
 			(node
@@ -13114,7 +13104,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "37")
 			(name "/Project Architecture/Connectors/SDC_SENSE_RTN")
 			(class "Default")
 			(node
@@ -13136,7 +13126,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "38")
 			(name "/Project Architecture/Daisy Chain/COMH.CT")
 			(class "ISO,Default")
 			(node
@@ -13146,7 +13136,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "39")
 			(name "/Project Architecture/Daisy Chain/COMH_CT")
 			(class "DAISY,Default")
 			(node
@@ -13161,7 +13151,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "40")
 			(name "/Project Architecture/Daisy Chain/COMH_WN")
 			(class "DAISY,Default")
 			(node
@@ -13181,7 +13171,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "41")
 			(name "/Project Architecture/Daisy Chain/COMH_WP")
 			(class "DAISY,Default")
 			(node
@@ -13201,7 +13191,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "42")
 			(name "/Project Architecture/Daisy Chain/COML.CT")
 			(class "ISO,Default")
 			(node
@@ -13211,7 +13201,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "43")
 			(name "/Project Architecture/Daisy Chain/COML_CT")
 			(class "DAISY,Default")
 			(node
@@ -13226,7 +13216,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "44")
 			(name "/Project Architecture/Daisy Chain/COML_WN")
 			(class "DAISY,Default")
 			(node
@@ -13246,7 +13236,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "45")
 			(name "/Project Architecture/Daisy Chain/COML_WP")
 			(class "DAISY,Default")
 			(node
@@ -13266,7 +13256,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "47")
 			(name "GND")
 			(class "Default")
 			(node
@@ -13576,7 +13566,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "48")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -13592,7 +13582,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "49")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -13608,7 +13598,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "50")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -13625,7 +13615,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "51")
 			(name "Net-(D5-K)")
 			(class "Default")
 			(node
@@ -13641,7 +13631,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "52")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -13658,7 +13648,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "53")
 			(name "Net-(D6-K)")
 			(class "Default")
 			(node
@@ -13674,7 +13664,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "54")
 			(name "Net-(D7-K)")
 			(class "Default")
 			(node
@@ -13695,7 +13685,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "55")
 			(name "unconnected-(J3-I2C1_SCL-Pad29)")
 			(class "Default")
 			(node
@@ -13706,7 +13696,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "56")
 			(name "unconnected-(J3-I2C1_SDA-Pad30)")
 			(class "Default")
 			(node
@@ -13717,7 +13707,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "57")
 			(name "unconnected-(J3-TIM1_CH1-Pad09)")
 			(class "Default")
 			(node
@@ -13728,7 +13718,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "58")
 			(name "unconnected-(J3-TIM1_CH2-Pad10)")
 			(class "Default")
 			(node
@@ -13739,7 +13729,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "59")
 			(name "unconnected-(J3-TIM1_CH3-Pad11)")
 			(class "Default")
 			(node
@@ -13750,7 +13740,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "60")
 			(name "unconnected-(J3-TIM2_CH1-Pad12)")
 			(class "Default")
 			(node
@@ -13761,7 +13751,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "61")
 			(name "unconnected-(J3-TIM2_CH3-Pad13)")
 			(class "Default")
 			(node
@@ -13772,7 +13762,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "62")
 			(name "unconnected-(J4-ADC1_IN2-Pad05)")
 			(class "Default")
 			(node
@@ -13783,7 +13773,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "63")
 			(name "unconnected-(J4-ADC1_IN2-Pad06)")
 			(class "Default")
 			(node
@@ -13794,7 +13784,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "64")
 			(name "unconnected-(J4-ADC1_IN3-Pad09)")
 			(class "Default")
 			(node
@@ -13805,7 +13795,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "65")
 			(name "unconnected-(J4-ADC1_IN3-Pad10)")
 			(class "Default")
 			(node
@@ -13816,7 +13806,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "66")
 			(name "unconnected-(J4-ADC1_IN4-Pad13)")
 			(class "Default")
 			(node
@@ -13827,7 +13817,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "67")
 			(name "unconnected-(J4-ADC1_IN4-Pad14)")
 			(class "Default")
 			(node
@@ -13838,7 +13828,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "68")
 			(name "unconnected-(J4-ADC2_IN5-Pad17)")
 			(class "Default")
 			(node
@@ -13849,7 +13839,7 @@
 			)
 		)
 		(net
-			(code "73")
+			(code "69")
 			(name "unconnected-(J4-ADC2_IN5-Pad18)")
 			(class "Default")
 			(node
@@ -13860,7 +13850,7 @@
 			)
 		)
 		(net
-			(code "74")
+			(code "70")
 			(name "unconnected-(J4-DAC1_OUT1-Pad25)")
 			(class "Default")
 			(node
@@ -13871,7 +13861,7 @@
 			)
 		)
 		(net
-			(code "75")
+			(code "71")
 			(name "unconnected-(J4-DAC1_OUT1-Pad26)")
 			(class "Default")
 			(node
@@ -13882,7 +13872,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "72")
 			(name "unconnected-(J4-DAC1_OUT2-Pad21)")
 			(class "Default")
 			(node
@@ -13893,7 +13883,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "73")
 			(name "unconnected-(J4-DAC1_OUT2-Pad22)")
 			(class "Default")
 			(node
@@ -13904,7 +13894,7 @@
 			)
 		)
 		(net
-			(code "78")
+			(code "74")
 			(name "unconnected-(J5-Pad1)")
 			(class "Default")
 			(node
@@ -13915,7 +13905,7 @@
 			)
 		)
 		(net
-			(code "79")
+			(code "75")
 			(name "unconnected-(J5-Pad2)")
 			(class "Default")
 			(node
@@ -13926,7 +13916,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "76")
 			(name "unconnected-(J5-Pad3)")
 			(class "Default")
 			(node
@@ -13937,7 +13927,7 @@
 			)
 		)
 		(net
-			(code "81")
+			(code "77")
 			(name "unconnected-(J5-Pad4)")
 			(class "Default")
 			(node
