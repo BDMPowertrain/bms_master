@@ -5,7 +5,7 @@
 	(uuid "ffffffac-35e4-44dc-88f6-2804d74523f1")
 	(paper "A3")
 	(title_block
-		(title "BMS_OK & Watchdog")
+		(title "BMS_OK & Indicators")
 		(date "2026-10-20")
 		(rev "${REVISION}")
 		(company "${COMPANY}")

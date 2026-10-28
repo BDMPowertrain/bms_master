@@ -2008,7 +2008,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "171c5d79-4c15-4ec3-a1b7-6f0eaa461925")
-		(property "Sheetname" "BMS_OK & watchdog"
+		(property "Sheetname" "BMS_OK & Indicators"
 			(at 129.54 62.4709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "bms_ok_and_watchdog.kicad_sch"
+		(property "Sheetfile" "bms_ok_and_indicators.kicad_sch"
 			(at 129.54 89.4846 0)
 			(hide yes)
 			(show_name no)
@@ -2113,7 +2113,7 @@
 				(justify right)
 			)
 		)
-		(pin "FB{WDT_OK NFAULT BMS_OK}" output
+		(pin "FB{NFAULT BMS_OK}" output
 			(at 167.64 86.36 0)
 			(uuid "b345e903-8b76-48bf-b183-7144649b9718")
 			(effects
@@ -2272,7 +2272,7 @@
 				(justify left)
 			)
 		)
-		(pin "FB{WDT_OK NFAULT BMS_OK}" input
+		(pin "FB{NFAULT BMS_OK}" input
 			(at 208.28 86.36 180)
 			(uuid "e2831f1c-690c-4bcd-aa5e-97a1499df756")
 			(effects

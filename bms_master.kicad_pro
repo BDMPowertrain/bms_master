@@ -680,7 +680,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "Manufacturing/Assembly/bms_master-bom-k8.csv",
     "bom_fmt_presets": [],
@@ -819,7 +819,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "TH1,U1,U4-10,CR1,#PWR1-48,#PWR50,#PWR57-70,C1-4,C7-18,D1-7,J1-7,R7-30",
+    "used_designators": "TH1,U1-10,CR1,#PWR1-70,D1-7,C1-18,J1-7,R1-30,H1-5",
     "variants": []
   },
   "sheets": [
@@ -849,7 +849,7 @@
     ],
     [
       "171c5d79-4c15-4ec3-a1b7-6f0eaa461925",
-      "BMS_OK & watchdog"
+      "BMS_OK & Indicators"
     ],
     [
       "bb46ac31-a623-4eaf-8eca-42657e99693d",
@@ -870,7 +870,7 @@
     "BRANCH": "dev",
     "BUILD_VARIANT": "DRAFT",
     "COMPANY": "Blue Devil Motor Sports",
-    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery\u2019s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
+    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "3005aae",
