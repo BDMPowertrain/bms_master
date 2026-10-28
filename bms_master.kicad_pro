@@ -819,7 +819,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "TH1,U1-10,CR1,#PWR1-70,D1-7,C1-18,J1-7,R1-30,H1-5",
+    "used_designators": "TH1,CR1,U1-10,D1-7,#PWR1-70,C1-18,R1-30,J1-7,H1-5",
     "variants": []
   },
   "sheets": [
