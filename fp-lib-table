@@ -27,4 +27,6 @@
 	(lib (name "remote_sn74lvc1g08qdbvrq1") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_sn74lvc1g08qdbvrq1.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0430450409") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_0430450409.pretty/") (options "") (descr "Remote download"))
 	(lib (name "remote_0436500400") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/footprints/remote_0436500400.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_sae_electric_logo") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_sae_electric_logo.pretty/") (options "") (descr "Remote download"))
+	(lib (name "remote_bmd_logo") (type "KiCad") (uri "/home/aidan/git/bms_master/RemoteLibrary/footprints/remote_bmd_logo.pretty/") (options "") (descr "Remote download"))
 )

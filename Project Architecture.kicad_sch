@@ -597,6 +597,16 @@
 		)
 		(uuid "08eaaee1-2629-43be-9f61-151d90b169f3")
 	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092515ff-48c6-42ab-93ef-c544bc4c9b48")
+	)
 	(bus
 		(pts
 			(xy 91.44 93.98) (xy 208.28 93.98)
@@ -666,6 +676,16 @@
 			(type default)
 		)
 		(uuid "29623e1e-0a44-4a6c-8779-0bc0126f1df8")
+	)
+	(wire
+		(pts
+			(xy 116.84 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f5986-2052-4021-96a4-7e4ac3a16f47")
 	)
 	(wire
 		(pts
@@ -819,6 +839,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 139.7) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a4d2c6-cfea-4516-aa5e-b03b14a3c73c")
+	)
+	(wire
+		(pts
 			(xy 243.84 76.2) (xy 243.84 78.74)
 		)
 		(stroke
@@ -829,6 +859,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 127) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78812e5c-c808-40b4-b059-63216a3ee48e")
+	)
+	(wire
+		(pts
 			(xy 55.88 76.2) (xy 55.88 78.74)
 		)
 		(stroke
@@ -836,6 +876,16 @@
 			(type default)
 		)
 		(uuid "8d737015-d4eb-4277-bf19-a01916ff0e38")
+	)
+	(wire
+		(pts
+			(xy 124.46 139.7) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934668bd-48cd-4018-8c99-58da7ef926ba")
 	)
 	(wire
 		(pts
@@ -899,6 +949,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 129.54) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7695de-ebb9-4fdc-ba36-8f683d7e5208")
+	)
+	(wire
+		(pts
 			(xy 167.64 134.62) (xy 208.28 134.62)
 		)
 		(stroke
@@ -916,6 +976,26 @@
 			(type default)
 		)
 		(uuid "d06f76b6-f4bb-4c3e-8912-97e5ee7ba3ad")
+	)
+	(wire
+		(pts
+			(xy 121.92 132.08) (xy 129.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c0d97c-68e4-43b2-baa5-cacc7110fa62")
+	)
+	(wire
+		(pts
+			(xy 116.84 132.08) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dceb19-961f-467c-9c3b-6f76637efad2")
 	)
 	(wire
 		(pts
@@ -998,7 +1078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "123a7b80-0a8d-4b01-8f9a-cfd329c63115")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR011"
 			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1058,7 +1138,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR046")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1076,7 +1156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14c90d50-3259-4012-ac61-61ea7fac9924")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR09"
 			(at 251.46 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1136,7 +1216,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR047")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1153,7 +1233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15e89c63-205f-4321-a3a1-c77a682cf3c8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR01"
 			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1213,7 +1293,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR041")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29a8a8a3-07dd-4c9e-8cf1-82617c1eeb17")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR08"
 			(at 116.84 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1290,7 +1370,161 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR044")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "312cc5a5-856e-4057-a9da-6cf696eb87eb")
+		(property "Reference" "#PWR064"
+			(at 116.84 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+3V3\""
+			(at 116.84 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53aa25f1-60bb-4714-8a4e-22c24b8171c7")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 127 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c832e0b-2a70-407e-a9fb-23be584095c8")
+		(property "Reference" "#PWR067"
+			(at 127 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 127 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+12V\""
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c468b404-9eef-46b4-a246-6dd8520e2879")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "502cbe4e-19e6-4d4f-abf2-afa21dbebbd3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR05"
 			(at 121.92 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1367,7 +1601,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR039")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1384,7 +1618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53033f78-0f40-4dc7-95ba-8c98d8344185")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR07"
 			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1444,7 +1678,84 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR042")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81c0e3b4-4531-4c61-895d-39baae0afa46")
+		(property "Reference" "#PWR065"
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 121.92 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"+5V\""
+			(at 121.92 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bc0123a-272f-4397-8fb6-294ca16838cc")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949d3359-5518-45b3-82ab-f8519fb77987")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR04"
 			(at 53.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1521,7 +1832,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR038")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a13e9aaa-75bb-495a-aa87-ab4c1154c12f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR06"
 			(at 246.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1599,7 +1910,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR040")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1617,7 +1928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b04e655d-a297-4334-b91f-a085e812159d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR012"
 			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1677,7 +1988,84 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR050")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4a6ee95-3a97-4db3-999e-fce5d5515fde")
+		(property "Reference" "#PWR066"
+			(at 124.46 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a local label with name \"GND\" , ground"
+			(at 124.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9178ff0-6324-416c-9454-7a4b33f6eb5e")
+		)
+		(instances
+			(project "bms_master"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1694,7 +2082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0be8295-b00a-4a62-a7a6-7aaa8118c202")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR013"
 			(at 124.46 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1754,7 +2142,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR057")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1771,7 +2159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1267c35-40cf-4548-9b73-eca21b204730")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR02"
 			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1831,7 +2219,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR045")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1849,7 +2237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4911c3b-ce07-48af-9abe-7a25f8847415")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR03"
 			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1909,7 +2297,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR048")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1926,7 +2314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd806078-74b5-4b2e-be38-a191949d34dc")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR010"
 			(at 55.88 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1986,7 +2374,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "#PWR043")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2548,6 +2936,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 129.54 134.62 180)
+			(uuid "9125583d-192a-4817-b358-75c2be5167a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 129.54 132.08 180)
+			(uuid "5a8d69ea-3843-413f-a87b-f865de3bab56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 129.54 129.54 180)
+			(uuid "10f947a4-82cf-4e8b-92be-a88af138e725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 129.54 139.7 180)
+			(uuid "d733b2b8-9800-4af0-b589-eb7e3dd6c0eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
