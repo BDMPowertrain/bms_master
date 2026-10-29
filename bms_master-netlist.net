@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-rr4mvqmj/bms_master.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-2nl9qd29/bms_master.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -23,7 +23,7 @@
 			(name "FABRICATION_NOTES")
 		)
 		(textvar
-			(name "GIT_HASH_PCB") "5eaaa2e")
+			(name "GIT_HASH_PCB") "5f084b2")
 		(textvar
 			(name "GIT_HASH_SCH") "45e7b92")
 		(textvar
@@ -628,134 +628,6 @@
 	(components
 		(comp
 			(ref "J1")
-			(value "0436500200")
-			(footprint "remote_0436500200:CONN_SD-43650-001_02_MOL")
-			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
-			(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			(fields
-				(field
-					(name "Manufacturer") "Molex")
-				(field
-					(name "Manufacturer Part Number") "0436500200")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_0436500200:CONN_SD-43650-001_02_MOL")
-				(field
-					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
-				(field
-					(name "Description") "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			)
-			(libsource
-				(lib "remote_0436500200")
-				(part "0436500200")
-				(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Molex")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "0436500200")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
-			)
-			(tstamps "fd137d40-8331-43bf-ac2f-2abc39acc691")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J2")
 			(value "0430450200")
 			(footprint "remote_0430450200:CONN_SD-43045-001_02_MOL")
 			(datasheet "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf")
@@ -868,6 +740,134 @@
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
 			)
 			(tstamps "903abc36-baff-4039-ab74-613c31c9ae62")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "0436500200")
+			(footprint "remote_0436500200:CONN_SD-43650-001_02_MOL")
+			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
+			(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+			(fields
+				(field
+					(name "Manufacturer") "Molex")
+				(field
+					(name "Manufacturer Part Number") "0436500200")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_0436500200:CONN_SD-43650-001_02_MOL")
+				(field
+					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500200_sd.pdf?inline")
+				(field
+					(name "Description") "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+			)
+			(libsource
+				(lib "remote_0436500200")
+				(part "0436500200")
+				(description "Connector Header Through Hole, Right Angle 2 position 0.118\" (3.00mm)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Molex")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "0436500200")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "connectors.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Connectors/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
+			)
+			(tstamps "fd137d40-8331-43bf-ac2f-2abc39acc691")
 			(units
 				(unit
 					(name "A")
@@ -1344,144 +1344,6 @@
 		)
 		(comp
 			(ref "J5")
-			(value "0436500400")
-			(footprint "remote_0436500400:CONN_SD-43650-001_04_MOL")
-			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500400_sd.pdf?inline")
-			(description "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)")
-			(fields
-				(field
-					(name "Manufacturer") "Molex")
-				(field
-					(name "Manufacturer Part Number") "0436500400")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "Footprint") "remote_0436500400:CONN_SD-43650-001_04_MOL")
-				(field
-					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500400_sd.pdf?inline")
-				(field
-					(name "Description") "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)")
-			)
-			(libsource
-				(lib "remote_0436500400")
-				(part "0436500400")
-				(description "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Molex")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "0436500400")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "Connectors")
-			)
-			(property
-				(name "Sheetfile")
-				(value "connectors.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "0436500400")
-			)
-			(sheetpath
-				(names "/Project Architecture/Connectors/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def/")
-			)
-			(tstamps "75cbadb6-57bc-48d0-91d6-c8e2b5ca0990")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "4")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "J7")
 			(value "0436500600")
 			(footprint "remote_0436500600:CONN_SD-43650-001_06_MOL")
 			(datasheet "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500600_sd.pdf?inline")
@@ -1679,8 +1541,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -1739,10 +1599,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -1821,8 +1677,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -1881,10 +1735,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -1963,8 +1813,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -2023,10 +1871,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2105,8 +1949,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -2165,10 +2007,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2247,8 +2085,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -2307,10 +2143,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2389,8 +2221,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -2449,10 +2279,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -2531,8 +2357,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L")
@@ -2591,10 +2415,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -3385,574 +3205,6 @@
 		)
 		(comp
 			(ref "C5")
-			(value "100pF")
-			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			(fields
-				(field
-					(name "Manufacturer") "Murata Electronics")
-				(field
-					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-				(field
-					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(libsource
-				(lib "remote_gcm1555c1h101ja16d")
-				(part "C")
-				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Murata Electronics")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "GCM1555C1H101JA16D")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "711ea301-f86e-47a9-9866-7498d154c897")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C6")
-			(value "100pF")
-			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			(fields
-				(field
-					(name "Manufacturer") "Murata Electronics")
-				(field
-					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-				(field
-					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(libsource
-				(lib "remote_gcm1555c1h101ja16d")
-				(part "C")
-				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Murata Electronics")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "GCM1555C1H101JA16D")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "75569d31-ccca-43fd-851b-ef3507f00bc3")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C11")
-			(value "100 pF")
-			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			(fields
-				(field
-					(name "Manufacturer") "Murata Electronics")
-				(field
-					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-				(field
-					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(libsource
-				(lib "")
-				(part "C_1")
-				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Murata Electronics")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "GCM1555C1H101JA16D")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "d10173c7-38d1-4b24-9456-197427453a56")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C12")
-			(value "100 pF")
-			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			(fields
-				(field
-					(name "Manufacturer") "Murata Electronics")
-				(field
-					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
-				(field
-					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(libsource
-				(lib "")
-				(part "C_1")
-				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Murata Electronics")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "GCM1555C1H101JA16D")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "8cf6b626-6d36-42e8-a085-48e00c3b6fa4")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "C13")
 			(value "100 pF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -4094,8 +3346,8 @@
 			)
 		)
 		(comp
-			(ref "C14")
-			(value "100 pF")
+			(ref "C6")
+			(value "100pF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
 			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
@@ -4144,8 +3396,8 @@
 					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
 			)
 			(libsource
-				(lib "")
-				(part "C_1")
+				(lib "remote_gcm1555c1h101ja16d")
+				(part "C")
 				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
 			)
 			(property
@@ -4220,7 +3472,551 @@
 				(names "/Project Architecture/Daisy Chain/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
 			)
+			(tstamps "711ea301-f86e-47a9-9866-7498d154c897")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100 pF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "")
+				(part "C_1")
+				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM1555C1H101JA16D")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "d10173c7-38d1-4b24-9456-197427453a56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100 pF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "")
+				(part "C_1")
+				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM1555C1H101JA16D")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
 			(tstamps "1c561e24-b985-4ee5-af76-acf4e0e582ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100pF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "remote_gcm1555c1h101ja16d")
+				(part "C")
+				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM1555C1H101JA16D")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "75569d31-ccca-43fd-851b-ef3507f00bc3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100 pF")
+			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			(fields
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Manufacturer Part Number") "GCM1555C1H101JA16D")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C1H101JA16-01A-EN_PDF_CERAMICCAPACITORSMD")
+				(field
+					(name "Description") "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(libsource
+				(lib "")
+				(part "C_1")
+				(description "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "GCM1555C1H101JA16D")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "8cf6b626-6d36-42e8-a085-48e00c3b6fa4")
 			(units
 				(unit
 					(name "A")
@@ -4526,7 +4322,143 @@
 			)
 		)
 		(comp
-			(ref "R1")
+			(ref "R8")
+			(value "49.9")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW040249R9FKED")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_crcw040249r9fked")
+				(part "R_US")
+				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW040249R9FKED")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "7ba33586-c7c6-42c8-8c00-8a6c1adcb6f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
 			(value "1k")
 			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
 			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -4566,8 +4498,6 @@
 				(field
 					(name "SAP Code")
 				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
 				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
@@ -4629,10 +4559,6 @@
 				(value "")
 			)
 			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
 				(name "Sheetname")
 				(value "Daisy Chain")
 			)
@@ -4668,7 +4594,279 @@
 			)
 		)
 		(comp
-			(ref "R2")
+			(ref "R10")
+			(value "49.9")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW040249R9FKED")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_crcw040249r9fked")
+				(part "R_US")
+				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW040249R9FKED")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "97af175f-a698-4014-96f1-30575d677b46")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "49.9")
+			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW040249R9FKED")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_crcw040249r9fked")
+				(part "R_US")
+				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW040249R9FKED")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Daisy Chain")
+			)
+			(property
+				(name "Sheetfile")
+				(value "daisy_chain.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Daisy Chain/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
+			)
+			(tstamps "d8bfbed4-591f-49ba-a9d0-564642d4c28b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
 			(value "1k")
 			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
 			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -4810,433 +5008,7 @@
 			)
 		)
 		(comp
-			(ref "R3")
-			(value "49.9")
-			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW040249R9FKED")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_crcw040249r9fked")
-				(part "R_US")
-				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW040249R9FKED")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "7ba33586-c7c6-42c8-8c00-8a6c1adcb6f0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R4")
-			(value "49.9")
-			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW040249R9FKED")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_crcw040249r9fked")
-				(part "R_US")
-				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW040249R9FKED")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "97af175f-a698-4014-96f1-30575d677b46")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R5")
-			(value "49.9")
-			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW040249R9FKED")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_crcw040249r9fked")
-				(part "R_US")
-				(description "49.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW040249R9FKED")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Daisy Chain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "daisy_chain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Daisy Chain/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/af224eec-27d8-4f88-a3c3-712d60217277/")
-			)
-			(tstamps "d8bfbed4-591f-49ba-a9d0-564642d4c28b")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R6")
+			(ref "R13")
 			(value "49.9")
 			(footprint "remote_erj-2ge0r00x:R_0402_1005Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -5677,13 +5449,13 @@
 			(ref "C4")
 			(value "0.1 µF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.22 uF (220 nF) ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)")
 			(fields
 				(field
 					(name "Manufacturer") "Murata Electronics")
 				(field
-					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+					(name "Manufacturer Part Number") "GRM155R61H224KE01D")
 				(field
 					(name "Vendor")
 				)
@@ -5719,9 +5491,9 @@
 				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R61H224KE01-01A-EN_PDF_CERAMICCAPACITORSMD")
 				(field
-					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+					(name "Description") "0.22 uF (220 nF) ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)")
 			)
 			(libsource
 				(lib "remote_gcm155r71h104ke02j")
@@ -5734,7 +5506,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "GCM155R71H104KE02J")
+				(value "GRM155R61H224KE01D")
 			)
 			(property
 				(name "Vendor")
@@ -5857,8 +5629,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
@@ -5917,10 +5687,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -6595,8 +6361,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -6655,10 +6419,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -6737,8 +6497,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_erj-2ge0r00x:R_0402_1005Metric")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf")
@@ -6797,10 +6555,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -7589,8 +7343,6 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_crcw080510k0fkea:R_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
@@ -7649,10 +7401,6 @@
 			(property
 				(name "SAP Code")
 				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
 			)
 			(property
 				(name "Sheetname")
@@ -8146,16 +7894,16 @@
 			)
 		)
 		(comp
-			(ref "C16")
-			(value "0.1 µF")
+			(ref "C13")
+			(value "10 nF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
-			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(datasheet "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD")
+			(description "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			(fields
 				(field
-					(name "Manufacturer") "Murata Electronics")
+					(name "Manufacturer") "KEMET")
 				(field
-					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
+					(name "Manufacturer Part Number") "C0402C103K5RECAUTO")
 				(field
 					(name "Vendor")
 				)
@@ -8191,22 +7939,22 @@
 				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
-					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD")
 				(field
-					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+					(name "Description") "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			)
 			(libsource
-				(lib "remote_gcm155r71h104ke02j")
+				(lib "remote_c0402c103k5recauto")
 				(part "C")
-				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+				(description "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata Electronics")
+				(value "KEMET")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "GCM155R71H104KE02J")
+				(value "C0402C103K5RECAUTO")
 			)
 			(property
 				(name "Vendor")
@@ -8272,7 +8020,7 @@
 				(names "/Project Architecture/Inputs & Sensing/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
 			)
-			(tstamps "cd3462b2-8d6e-4958-9298-431d1d35b9a1")
+			(tstamps "c64ae36f-48c5-421e-ab08-26b479181200")
 			(units
 				(unit
 					(name "A")
@@ -8288,7 +8036,7 @@
 			)
 		)
 		(comp
-			(ref "C17")
+			(ref "C14")
 			(value "10 nF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 			(datasheet "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD")
@@ -8430,16 +8178,16 @@
 			)
 		)
 		(comp
-			(ref "C18")
-			(value "10 nF")
+			(ref "C15")
+			(value "0.1 µF")
 			(footprint "remote_cl05a105ko5nnnc:C_0402_1005Metric")
-			(datasheet "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD")
-			(description "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+			(datasheet "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
+			(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			(fields
 				(field
-					(name "Manufacturer") "KEMET")
+					(name "Manufacturer") "Murata Electronics")
 				(field
-					(name "Manufacturer Part Number") "C0402C103K5RECAUTO")
+					(name "Manufacturer Part Number") "GCM155R71H104KE02J")
 				(field
 					(name "Vendor")
 				)
@@ -8471,26 +8219,24 @@
 					(name "SAP Code")
 				)
 				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
 					(name "Footprint") "remote_cl05a105ko5nnnc:C_0402_1005Metric")
 				(field
-					(name "Datasheet") "https://yageogroup.com/content/datasheet/asset/file/KEM_C1090_X7R_ESD")
+					(name "Datasheet") "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM155R71H104KE02-01A-EN_PDF_CERAMICCAPACITORSMD")
 				(field
-					(name "Description") "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+					(name "Description") "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			)
 			(libsource
-				(lib "remote_c0402c103k5recauto")
+				(lib "remote_gcm155r71h104ke02j")
 				(part "C")
-				(description "10000pf (10 nF or 0.01 uF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
+				(description "0.1 uF (100nF) ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)")
 			)
 			(property
 				(name "Manufacturer")
-				(value "KEMET")
+				(value "Murata Electronics")
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "C0402C103K5RECAUTO")
+				(value "GCM155R71H104KE02J")
 			)
 			(property
 				(name "Vendor")
@@ -8533,10 +8279,6 @@
 				(value "")
 			)
 			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
 				(name "Sheetname")
 				(value "Inputs & Sensing")
 			)
@@ -8556,7 +8298,7 @@
 				(names "/Project Architecture/Inputs & Sensing/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
 			)
-			(tstamps "c64ae36f-48c5-421e-ab08-26b479181200")
+			(tstamps "cd3462b2-8d6e-4958-9298-431d1d35b9a1")
 			(units
 				(unit
 					(name "A")
@@ -8704,300 +8446,16 @@
 			)
 		)
 		(comp
-			(ref "R7")
-			(value "10k")
-			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_rc0402jr-0710kl")
-				(part "RT0402BRD0710KL")
-				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW060310K0FKEA")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Inputs & Sensing")
-			)
-			(property
-				(name "Sheetfile")
-				(value "inputs_and_sensing.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Inputs & Sensing/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
-			)
-			(tstamps "0385c121-274e-448b-b048-67efc3f5a820")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R21")
-			(value "10k")
-			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
-			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			(fields
-				(field
-					(name "Manufacturer") "Vishay Dale")
-				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-				(field
-					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
-				(field
-					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-				(field
-					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(libsource
-				(lib "remote_rc0402jr-0710kl")
-				(part "RT0402BRD0710KL")
-				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Dale")
-			)
-			(property
-				(name "Manufacturer Part Number")
-				(value "CRCW060310K0FKEA")
-			)
-			(property
-				(name "Vendor")
-				(value "")
-			)
-			(property
-				(name "Vendor Part Number")
-				(value "")
-			)
-			(property
-				(name "Mass (g)")
-				(value "")
-			)
-			(property
-				(name "RQjC (C/W)")
-				(value "")
-			)
-			(property
-				(name "RQjC_top (C/W)")
-				(value "")
-			)
-			(property
-				(name "Temp_max (C)")
-				(value "")
-			)
-			(property
-				(name "Temp_min (C)")
-				(value "")
-			)
-			(property
-				(name "Power Dissipation (W)")
-				(value "")
-			)
-			(property
-				(name "Rate")
-				(value "")
-			)
-			(property
-				(name "SAP Code")
-				(value "")
-			)
-			(property
-				(name "KiLib_Generator")
-				(value "SMD_2terminal_chip_molded")
-			)
-			(property
-				(name "Sheetname")
-				(value "Inputs & Sensing")
-			)
-			(property
-				(name "Sheetfile")
-				(value "inputs_and_sensing.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Project Architecture/Inputs & Sensing/")
-				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
-			)
-			(tstamps "813889bb-7dc4-46cd-8e48-3e9567e1e44d")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R22")
-			(value "10k")
+			(value "22k")
 			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(description "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			(fields
 				(field
 					(name "Manufacturer") "Vishay Dale")
 				(field
-					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
+					(name "Manufacturer Part Number") "CRCW060322K0FKEA")
 				(field
 					(name "Vendor")
 				)
@@ -9035,12 +8493,12 @@
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 				(field
-					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+					(name "Description") "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "remote_rc0402jr-0710kl")
-				(part "RT0402BRD0710KL")
-				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+				(lib "remote_crcw060322k0fkea")
+				(part "R_US")
+				(description "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			)
 			(property
 				(name "Manufacturer")
@@ -9048,7 +8506,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "CRCW060310K0FKEA")
+				(value "CRCW060322K0FKEA")
 			)
 			(property
 				(name "Vendor")
@@ -9114,7 +8572,7 @@
 				(names "/Project Architecture/Inputs & Sensing/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
 			)
-			(tstamps "297b3cfd-b00f-493d-bc04-9486aa9f9069")
+			(tstamps "6de05124-8743-442f-b8bb-5175365639a7")
 			(units
 				(unit
 					(name "A")
@@ -9273,15 +8731,15 @@
 		)
 		(comp
 			(ref "R24")
-			(value "22k")
+			(value "10k")
 			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
 			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
-			(description "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			(fields
 				(field
 					(name "Manufacturer") "Vishay Dale")
 				(field
-					(name "Manufacturer Part Number") "CRCW060322K0FKEA")
+					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
 				(field
 					(name "Vendor")
 				)
@@ -9319,12 +8777,12 @@
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
 				(field
-					(name "Description") "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "remote_crcw060322k0fkea")
-				(part "R_US")
-				(description "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
 			)
 			(property
 				(name "Manufacturer")
@@ -9332,7 +8790,7 @@
 			)
 			(property
 				(name "Manufacturer Part Number")
-				(value "CRCW060322K0FKEA")
+				(value "CRCW060310K0FKEA")
 			)
 			(property
 				(name "Vendor")
@@ -9398,7 +8856,279 @@
 				(names "/Project Architecture/Inputs & Sensing/")
 				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
 			)
-			(tstamps "6de05124-8743-442f-b8bb-5175365639a7")
+			(tstamps "813889bb-7dc4-46cd-8e48-3e9567e1e44d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "10k")
+			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEA")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Inputs & Sensing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "inputs_and_sensing.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Inputs & Sensing/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
+			)
+			(tstamps "297b3cfd-b00f-493d-bc04-9486aa9f9069")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "10k")
+			(footprint "remote_rcs060359r0fkea:R_0603_1608Metric")
+			(datasheet "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+			(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Manufacturer Part Number") "CRCW060310K0FKEA")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_rcs060359r0fkea:R_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20035/dcrcwe3.pdf")
+				(field
+					(name "Description") "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "remote_rc0402jr-0710kl")
+				(part "RT0402BRD0710KL")
+				(description "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "CRCW060310K0FKEA")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Inputs & Sensing")
+			)
+			(property
+				(name "Sheetfile")
+				(value "inputs_and_sensing.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Inputs & Sensing/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb46ac31-a623-4eaf-8eca-42657e99693d/")
+			)
+			(tstamps "0385c121-274e-448b-b048-67efc3f5a820")
 			(units
 				(unit
 					(name "A")
@@ -9556,7 +9286,7 @@
 			)
 		)
 		(comp
-			(ref "U8")
+			(ref "U7")
 			(value "TLP293(GB-TPL,E")
 			(footprint "remote_tlp293_gb-tpl_e:SO4_TOS")
 			(datasheet "https://toshiba.semicon-storage.com/info/TLP293_datasheet_en_20260805.pdf?did=14419&prodName=TLP293")
@@ -9698,7 +9428,7 @@
 			)
 		)
 		(comp
-			(ref "U9")
+			(ref "U8")
 			(value "ESD9B5.0ST5G")
 			(footprint "remote_esd9b3.3st5g:SODFL1006X40N")
 			(datasheet "https://www.onsemi.com/pdf/datasheet/esd9b-d.pdf")
@@ -9857,6 +9587,678 @@
 							(num "2")
 						)
 					)
+				)
+			)
+		)
+		(comp
+			(ref "FID1")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_0.5mm_Mask1mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "b7207c2f-aaaf-4643-a086-58a757cda55a")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_0.5mm_Mask1mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "2e59890d-31b6-4293-a6b8-37e13d4a243a")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID3")
+			(value "Fiducial")
+			(footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+			(description "Fiducial Marker")
+			(fields
+				(field
+					(name "Footprint") "Fiducial:Fiducial_0.5mm_Mask1mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "fca0ceae-d6ba-4657-9ca4-606485b9989a")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "G1")
+			(value "SAE Electric logo")
+			(footprint "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+			(datasheet "N/A")
+			(description "SAE Electric logo.")
+			(fields
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "SAE Electric logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "SAE Electric logo.")
+			)
+			(libsource
+				(lib "remote_sae_electric_logo")
+				(part "LOGO")
+				(description "SAE Electric logo.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BDM")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "SAE Electric logo")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "84df8e12-13db-400a-a5dd-ad0eeb2a702b")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "G2")
+			(value "BMD Logo")
+			(footprint "remote_bmd_logo:BDM_Logo_100mm")
+			(datasheet "N/A")
+			(description "Blue Devil Motorsports silkscreen logo.")
+			(fields
+				(field
+					(name "Manufacturer") "BMD")
+				(field
+					(name "Manufacturer Part Number") "BMD Logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+				(field
+					(name "Footprint") "remote_bmd_logo:BDM_Logo_100mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Blue Devil Motorsports silkscreen logo.")
+			)
+			(libsource
+				(lib "remote_bmd_logo")
+				(part "BMD LOGO")
+				(description "Blue Devil Motorsports silkscreen logo.")
+			)
+			(property
+				(name "Manufacturer")
+				(value "BMD")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "BMD Logo")
+			)
+			(property
+				(name "Vendor")
+				(value "")
+			)
+			(property
+				(name "Vendor Part Number")
+				(value "")
+			)
+			(property
+				(name "Mass (g)")
+				(value "")
+			)
+			(property
+				(name "RQjC (C/W)")
+				(value "")
+			)
+			(property
+				(name "RQjC_top (C/W)")
+				(value "")
+			)
+			(property
+				(name "Temp_max (C)")
+				(value "")
+			)
+			(property
+				(name "Temp_min (C)")
+				(value "")
+			)
+			(property
+				(name "Power Dissipation (W)")
+				(value "")
+			)
+			(property
+				(name "Rate")
+				(value "")
+			)
+			(property
+				(name "SAP Code")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "e41ee955-8269-4fdd-9793-805976422e3b")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "KiLib_Generator") "mounting_hardware/mounting_hole")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "mounting_hardware/mounting_hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "f7d14e4e-11f6-4726-b105-e5533340db1e")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "KiLib_Generator") "mounting_hardware/mounting_hole")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "mounting_hardware/mounting_hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "5ee49772-a59b-4297-aa61-9159f6950cba")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "KiLib_Generator") "mounting_hardware/mounting_hole")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "mounting_hardware/mounting_hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "07ac826f-6d10-4c51-87fc-f07eea45f087")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "KiLib_Generator") "mounting_hardware/mounting_hole")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "mounting_hardware/mounting_hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "fba79346-eb1a-4321-a30e-2468928827eb")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H5")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_3.2mm_M3")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "KiLib_Generator") "mounting_hardware/mounting_hole")
+				(field
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "mounting_hardware/mounting_hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "Mechanical")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mechanical.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Project Architecture/Mechanical/")
+				(tstamps "/c5103ceb-5325-4a84-a025-9638a412984e/bb499070-79cc-4923-ab18-d59186dc0d26/")
+			)
+			(tstamps "668d2e35-ab34-43ba-aa76-1207a7884dcc")
+			(units
+				(unit
+					(name "A")
+					(pins)
 				)
 			)
 		)
@@ -10142,6 +10544,50 @@
 			)
 		)
 		(libpart
+			(lib "Mechanical")
+			(part "Fiducial")
+			(description "Fiducial Marker")
+			(footprints
+				(fp "Fiducial*")
+			)
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value") "Fiducial")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
 			(lib "remote_0430450200")
 			(part "0430450200")
 			(description "Connector Header Through Hole, Right Angle 2 position")
@@ -10265,80 +10711,6 @@
 				(pin
 					(num "2")
 					(name "2")
-					(type "unspecified")
-				)
-			)
-		)
-		(libpart
-			(lib "remote_0436500400")
-			(part "0436500400")
-			(description "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)")
-			(docs "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500400_sd.pdf?inline")
-			(fields
-				(field
-					(name "Reference") "J")
-				(field
-					(name "Value") "0436500400")
-				(field
-					(name "Footprint") "remote_0436500400:CONN_SD-43650-001_04_MOL")
-				(field
-					(name "Datasheet") "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500400_sd.pdf?inline")
-				(field
-					(name "Description") "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)")
-				(field
-					(name "Manufacturer") "Molex")
-				(field
-					(name "Manufacturer Part Number") "0436500400")
-				(field
-					(name "Vendor")
-				)
-				(field
-					(name "Vendor Part Number")
-				)
-				(field
-					(name "Mass (g)")
-				)
-				(field
-					(name "RQjC (C/W)")
-				)
-				(field
-					(name "RQjC_top (C/W)")
-				)
-				(field
-					(name "Temp_max (C)")
-				)
-				(field
-					(name "Temp_min (C)")
-				)
-				(field
-					(name "Power Dissipation (W)")
-				)
-				(field
-					(name "Rate")
-				)
-				(field
-					(name "SAP Code")
-				)
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "1")
-					(type "unspecified")
-				)
-				(pin
-					(num "2")
-					(name "2")
-					(type "unspecified")
-				)
-				(pin
-					(num "3")
-					(name "3")
-					(type "unspecified")
-				)
-				(pin
-					(num "4")
-					(name "4")
 					(type "unspecified")
 				)
 			)
@@ -10506,6 +10878,58 @@
 					(num "2")
 					(name "A")
 					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "remote_bmd_logo")
+			(part "BMD LOGO")
+			(description "Blue Devil Motorsports silkscreen logo.")
+			(docs "N/A")
+			(fields
+				(field
+					(name "Reference") "G")
+				(field
+					(name "Value") "BMD Logo")
+				(field
+					(name "Footprint") "remote_bmd_logo:BDM_Logo_100mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "Blue Devil Motorsports silkscreen logo.")
+				(field
+					(name "Manufacturer") "BMD")
+				(field
+					(name "Manufacturer Part Number") "BMD Logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
 				)
 			)
 		)
@@ -11818,6 +12242,58 @@
 			)
 		)
 		(libpart
+			(lib "remote_sae_electric_logo")
+			(part "LOGO")
+			(description "SAE Electric logo.")
+			(docs "N/A")
+			(fields
+				(field
+					(name "Reference") "G")
+				(field
+					(name "Value") "SAE Electric logo")
+				(field
+					(name "Footprint") "remote_sae_electric_logo:SAE_Electric_Logo_10mm")
+				(field
+					(name "Datasheet") "N/A")
+				(field
+					(name "Description") "SAE Electric logo.")
+				(field
+					(name "Manufacturer") "BDM")
+				(field
+					(name "Manufacturer Part Number") "SAE Electric logo")
+				(field
+					(name "Vendor")
+				)
+				(field
+					(name "Vendor Part Number")
+				)
+				(field
+					(name "Mass (g)")
+				)
+				(field
+					(name "RQjC (C/W)")
+				)
+				(field
+					(name "RQjC_top (C/W)")
+				)
+				(field
+					(name "Temp_max (C)")
+				)
+				(field
+					(name "Temp_min (C)")
+				)
+				(field
+					(name "Power Dissipation (W)")
+				)
+				(field
+					(name "Rate")
+				)
+				(field
+					(name "SAP Code")
+				)
+			)
+		)
+		(libpart
 			(lib "remote_sm91502ala-e")
 			(part "SM91502ALA-E")
 			(description "150µH Pulse Transformer 1:1 Surface Mount")
@@ -12369,7 +12845,12 @@
 			)
 		)
 	)
-	(libraries)
+	(libraries
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+	)
 	(nets
 		(net
 			(code "1")
@@ -12408,7 +12889,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R21")
+				(ref "R22")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -12510,7 +12991,7 @@
 			(name "/Project Architecture/BMS_OK & Indicators/BMS_OK")
 			(class "Default")
 			(node
-				(ref "J7")
+				(ref "J5")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -12797,18 +13278,18 @@
 			(name "/Project Architecture/Com. Chip/U1_COMH.N")
 			(class "DAISY,Default")
 			(node
-				(ref "C11")
+				(ref "C7")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R1")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R4")
+				(ref "R10")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -12823,17 +13304,17 @@
 			(name "/Project Architecture/Com. Chip/U1_COMH.P")
 			(class "DAISY,Default")
 			(node
-				(ref "C13")
+				(ref "C5")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R1")
+				(ref "R8")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R3")
+				(ref "R9")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -12849,17 +13330,17 @@
 			(name "/Project Architecture/Com. Chip/U1_COML.N")
 			(class "DAISY,Default")
 			(node
-				(ref "C14")
+				(ref "C8")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
+				(ref "R11")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R5")
+				(ref "R12")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -12875,17 +13356,17 @@
 			(name "/Project Architecture/Com. Chip/U1_COML.P")
 			(class "DAISY,Default")
 			(node
-				(ref "C12")
+				(ref "C10")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R2")
+				(ref "R12")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R6")
+				(ref "R13")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -12901,7 +13382,7 @@
 			(name "/Project Architecture/Connectors/BOARD_TEMP")
 			(class "Default")
 			(node
-				(ref "C16")
+				(ref "C15")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -12918,7 +13399,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R7")
+				(ref "R26")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -12933,23 +13414,23 @@
 			(name "/Project Architecture/Connectors/CHG_MODE")
 			(class "Default")
 			(node
-				(ref "J7")
+				(ref "J5")
 				(pin "3")
 				(pinfunction "3_3")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R21")
+				(ref "R24")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "R22")
+				(ref "R25")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "U9")
+				(ref "U8")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -12959,7 +13440,7 @@
 			(name "/Project Architecture/Connectors/CHG_MODE_N")
 			(class "Default")
 			(node
-				(ref "C17")
+				(ref "C14")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -12970,7 +13451,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R22")
+				(ref "R25")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -12980,7 +13461,7 @@
 			(name "/Project Architecture/Connectors/COMH.N")
 			(class "ISO,Default")
 			(node
-				(ref "J2")
+				(ref "J1")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -12996,7 +13477,7 @@
 			(name "/Project Architecture/Connectors/COMH.P")
 			(class "ISO,Default")
 			(node
-				(ref "J2")
+				(ref "J1")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
@@ -13012,7 +13493,7 @@
 			(name "/Project Architecture/Connectors/COML.N")
 			(class "ISO,Default")
 			(node
-				(ref "J1")
+				(ref "J2")
 				(pin "1")
 				(pinfunction "1_1")
 				(pintype "unspecified")
@@ -13028,7 +13509,7 @@
 			(name "/Project Architecture/Connectors/COML.P")
 			(class "ISO,Default")
 			(node
-				(ref "J1")
+				(ref "J2")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
@@ -13066,7 +13547,7 @@
 			(name "/Project Architecture/Connectors/SDC_OK_N")
 			(class "Default")
 			(node
-				(ref "C18")
+				(ref "C13")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -13077,12 +13558,12 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R24")
+				(ref "R22")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "U8")
+				(ref "U7")
 				(pin "4")
 				(pintype "unspecified")
 			)
@@ -13092,9 +13573,9 @@
 			(name "/Project Architecture/Connectors/SDC_SENSE")
 			(class "Default")
 			(node
-				(ref "J7")
-				(pin "5")
-				(pinfunction "5_5")
+				(ref "J5")
+				(pin "6")
+				(pinfunction "6_6")
 				(pintype "unspecified")
 			)
 			(node
@@ -13114,13 +13595,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J7")
-				(pin "6")
-				(pinfunction "6_6")
+				(ref "J5")
+				(pin "5")
+				(pinfunction "5_5")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "U8")
+				(ref "U7")
 				(pin "2")
 				(pintype "unspecified")
 			)
@@ -13140,7 +13621,7 @@
 			(name "/Project Architecture/Daisy Chain/COMH_CT")
 			(class "DAISY,Default")
 			(node
-				(ref "C5")
+				(ref "C6")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -13160,7 +13641,7 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R4")
+				(ref "R10")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -13180,7 +13661,7 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R3")
+				(ref "R8")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -13205,7 +13686,7 @@
 			(name "/Project Architecture/Daisy Chain/COML_CT")
 			(class "DAISY,Default")
 			(node
-				(ref "C6")
+				(ref "C9")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -13225,7 +13706,7 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R5")
+				(ref "R11")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -13245,7 +13726,7 @@
 				(pintype "unspecified")
 			)
 			(node
-				(ref "R6")
+				(ref "R13")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -13261,47 +13742,27 @@
 			(class "Default")
 			(node
 				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "C11")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C12")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "C13")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "C14")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "C15")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C16")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "C17")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C18")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -13311,7 +13772,7 @@
 			)
 			(node
 				(ref "C5")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -13321,6 +13782,11 @@
 			)
 			(node
 				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -13495,13 +13961,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J7")
+				(ref "J5")
 				(pin "2")
 				(pinfunction "2_2")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "J7")
+				(ref "J5")
 				(pin "4")
 				(pinfunction "4_4")
 				(pintype "unspecified")
@@ -13523,11 +13989,6 @@
 			)
 			(node
 				(ref "R26")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R7")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -13555,12 +14016,12 @@
 				(pintype "power_in")
 			)
 			(node
-				(ref "U8")
+				(ref "U7")
 				(pin "3")
 				(pintype "unspecified")
 			)
 			(node
-				(ref "U9")
+				(ref "U8")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -13679,7 +14140,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "U8")
+				(ref "U7")
 				(pin "1")
 				(pintype "unspecified")
 			)
@@ -13891,50 +14352,6 @@
 				(pin "22")
 				(pinfunction "DAC1_OUT2_22")
 				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "74")
-			(name "unconnected-(J5-Pad1)")
-			(class "Default")
-			(node
-				(ref "J5")
-				(pin "1")
-				(pinfunction "1_1")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "75")
-			(name "unconnected-(J5-Pad2)")
-			(class "Default")
-			(node
-				(ref "J5")
-				(pin "2")
-				(pinfunction "2_2")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "76")
-			(name "unconnected-(J5-Pad3)")
-			(class "Default")
-			(node
-				(ref "J5")
-				(pin "3")
-				(pinfunction "3_3")
-				(pintype "unspecified")
-			)
-		)
-		(net
-			(code "77")
-			(name "unconnected-(J5-Pad4)")
-			(class "Default")
-			(node
-				(ref "J5")
-				(pin "4")
-				(pinfunction "4_4")
-				(pintype "unspecified")
 			)
 		)
 	)
