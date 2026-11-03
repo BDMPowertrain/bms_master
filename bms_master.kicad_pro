@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -181,6 +181,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -192,6 +193,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,6 +205,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 1,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -514,6 +517,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -669,8 +673,17 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
+      "/Project Architecture/+12V": [
+        "PWR"
+      ],
+      "/Project Architecture/+3V3": [
+        "PWR"
+      ],
+      "/Project Architecture/+5V": [
+        "PWR"
+      ],
       "/Project Architecture/Com. Chip/U1_COMH.N": [
         "DAISY"
       ],
@@ -710,12 +723,6 @@
       "/Project Architecture/Daisy Chain/COMH.CT": [
         "ISO"
       ],
-      "/Project Architecture/Daisy Chain/COMH.N": [
-        "ISO"
-      ],
-      "/Project Architecture/Daisy Chain/COMH.P": [
-        "ISO"
-      ],
       "/Project Architecture/Daisy Chain/COMH_CT": [
         "DAISY"
       ],
@@ -725,16 +732,7 @@
       "/Project Architecture/Daisy Chain/COMH_WP": [
         "DAISY"
       ],
-      "/Project Architecture/Daisy Chain/COMH{P N}": [
-        "ISO"
-      ],
       "/Project Architecture/Daisy Chain/COML.CT": [
-        "ISO"
-      ],
-      "/Project Architecture/Daisy Chain/COML.N": [
-        "ISO"
-      ],
-      "/Project Architecture/Daisy Chain/COML.P": [
         "ISO"
       ],
       "/Project Architecture/Daisy Chain/COML_CT": [
@@ -746,26 +744,8 @@
       "/Project Architecture/Daisy Chain/COML_WP": [
         "DAISY"
       ],
-      "/Project Architecture/Daisy Chain/COML{P N}": [
-        "ISO"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COMH.N": [
-        "DAISY"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COMH.P": [
-        "DAISY"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COMH{P N}": [
-        "DAISY"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COML.N": [
-        "DAISY"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COML.P": [
-        "DAISY"
-      ],
-      "/Project Architecture/Daisy Chain/U1_COML{P N}": [
-        "DAISY"
+      "/Project Architecture/GND": [
+        "GND"
       ]
     },
     "netclass_patterns": []
@@ -927,7 +907,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "FID1-3,G1-2,H1-5,J1-7,R1-30,C1-18,D1-7,U1-10,#PWR1-70,CR1,TH1",
+    "used_designators": "#PWR1-70,C1-18,CR1,D1-7,FID1-3,G1-2,H1-5,J1-7,R1-30,TH1,U1-10",
     "variants": []
   },
   "sheets": [
@@ -978,7 +958,7 @@
     "BRANCH": "dev",
     "BUILD_VARIANT": "DRAFT",
     "COMPANY": "Blue Devil Motor Sports",
-    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery\u2019s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
+    "DESCRIPTION": "The BMS master board is the bridge between the TIM and the 16 BMS slave boards. It passes data both ways over a looped daisy chain, isolated by transformers so the battery’s high voltage never reaches the low-voltage side, and it signals the TIM the moment any slave reports a fault.",
     "DESIGNER": "Aidan Brzezinski",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "5f084b2",

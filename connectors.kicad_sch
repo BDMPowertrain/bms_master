@@ -5439,6 +5439,7 @@
 	(hierarchical_label "12V"
 		(shape output)
 		(at 27.94 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5447,6 +5448,19 @@
 			(justify left)
 		)
 		(uuid "4c4b4b79-fefe-4a77-b47f-396d7e1e2edf")
+		(property "Netclass" "PWR"
+			(at 27.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "SDC_OK_N"
 		(shape input)
@@ -5529,6 +5543,7 @@
 	(hierarchical_label "GND"
 		(shape output)
 		(at 27.94 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5537,10 +5552,24 @@
 			(justify left)
 		)
 		(uuid "c8b96e6e-2ac7-4e64-a1f2-08f823326ab0")
+		(property "Netclass" "GND"
+			(at 27.94 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "5V"
 		(shape output)
 		(at 27.94 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,6 +5578,19 @@
 			(justify left)
 		)
 		(uuid "d1b92705-7103-4df2-a2ae-3285fdbb18c8")
+		(property "Netclass" "PWR"
+			(at 27.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "MCU_BMS_OK"
 		(shape output)
@@ -5564,6 +5606,7 @@
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 27.94 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,6 +5615,19 @@
 			(justify left)
 		)
 		(uuid "f21315ce-dbbf-449d-b308-3b29cdb9e64f")
+		(property "Netclass" "PWR"
+			(at 27.94 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "CHG_MODE"
 		(shape output)
@@ -5596,7 +5652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026a41bb-71f9-4fd9-8ce7-f03223f53aaf")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 25.4 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5656,7 +5712,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb1c1f1-fbf0-4edb-ad92-a177de6a1b25")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 25.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6503,7 +6559,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e59f888e-a77b-43cc-bd86-8734c6153559")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 53.34 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6581,7 +6637,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6931,7 +6987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f263aead-81ae-457a-9aa9-7b1e16588393")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 25.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +7047,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7723b18-6682-4010-83a3-bbbcc9cd1c42")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 25.4 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7068,7 +7124,7 @@
 		(instances
 			(project "bms_master"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/956c8333-ae07-4fed-a498-85b19a919def"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
