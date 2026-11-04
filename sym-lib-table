@@ -38,4 +38,5 @@
 	(lib (name "remote_0436500400") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/symbols/remote_0436500400.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_sae_electric_logo") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/symbols/remote_sae_electric_logo.kicad_sym") (options "") (descr "Remote download"))
 	(lib (name "remote_bmd_logo") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/symbols/remote_bmd_logo.kicad_sym") (options "") (descr "Remote download"))
+	(lib (name "remote_tfm-115-22-s-d-a-k-tr") (type "KiCad") (uri "${KIPRJMOD}/RemoteLibrary/symbols/remote_tfm-115-22-s-d-a-k-tr.kicad_sym") (options "") (descr "Remote download"))
 )
