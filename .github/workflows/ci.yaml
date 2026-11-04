@@ -47,7 +47,7 @@ env:
   # PRELIMINARY: will generate both schematic and PCB documents, but no ERC/DRC
   # CHECKED: will generate both schematic and PCB documents, with ERC/DRC
   # RELEASED: same as CHECKED, then releases release_version (see "Releases" above)
-  kibot_variant: DRAFT
+  kibot_variant: PRELIMINARY
   release_version: ""
 
   kibot_log: kibot_run.log

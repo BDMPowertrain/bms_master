@@ -4227,6 +4227,87 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 106.68 93.98)
+		(end 203.2 137.16)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0e399776-4a4b-4756-be02-c5df0974ac3c")
+	)
+	(rectangle
+		(start 134.62 55.88)
+		(end 152.4 76.2)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1119b7f0-687d-421f-b44f-fce1292d6763")
+	)
+	(rectangle
+		(start 106.68 55.88)
+		(end 129.54 86.36)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5d6c9e34-efc0-4482-8d8f-a917f1b29557")
+	)
+	(text "Silkscreen"
+		(exclude_from_sim no)
+		(at 106.68 93.98 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cbc7cea-3d46-487b-831d-19a7fd8f89a9")
+	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 134.62 55.88 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "156abfb2-d874-4929-bb07-d7d47f539503")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 106.68 55.88 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bfba0c3-bfb4-4b70-9693-9d2920fb9e10")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 101.6 15.24 0)
@@ -4328,7 +4409,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 185.42 68.58 0)
+		(at 139.7 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4339,7 +4420,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e59890d-31b6-4293-a6b8-37e13d4a243a")
 		(property "Reference" "FID2"
-			(at 187.96 67.31 0)
+			(at 142.24 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4350,7 +4431,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 187.96 69.85 0)
+			(at 142.24 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4361,7 +4442,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 185.42 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4464,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 185.42 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4637,7 @@
 	)
 	(symbol
 		(lib_id "remote_sae_electric_logo:LOGO")
-		(at 152.4 71.12 0)
+		(at 180.34 114.3 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4566,7 +4647,7 @@
 		(dnp no)
 		(uuid "84df8e12-13db-400a-a5dd-ad0eeb2a702b")
 		(property "Reference" "G1"
-			(at 152.4 55.3662 0)
+			(at 180.34 98.5462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,7 +4658,7 @@
 			)
 		)
 		(property "Value" "SAE Electric logo"
-			(at 147.32 86.36 0)
+			(at 175.26 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,7 +4669,7 @@
 			)
 		)
 		(property "Footprint" "remote_sae_electric_logo:SAE_Electric_Logo_10mm"
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4599,7 +4680,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4691,7 @@
 			)
 		)
 		(property "Description" "SAE Electric logo."
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4621,7 +4702,7 @@
 			)
 		)
 		(property "Manufacturer" "BDM"
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,7 +4713,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SAE Electric logo"
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +4724,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +4735,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +4746,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,7 +4757,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4768,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4779,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4790,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4801,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4812,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4823,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 152.4 71.12 0)
+			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4763,7 +4844,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 185.42 63.5 0)
+		(at 139.7 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4774,7 +4855,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7207c2f-aaaf-4643-a086-58a757cda55a")
 		(property "Reference" "FID1"
-			(at 187.96 62.23 0)
+			(at 142.24 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4785,7 +4866,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 187.96 64.77 0)
+			(at 142.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4796,7 +4877,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 185.42 63.5 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4807,7 +4888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 63.5 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +4899,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 185.42 63.5 0)
+			(at 139.7 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4920,7 @@
 	)
 	(symbol
 		(lib_id "remote_bmd_logo:BMD LOGO")
-		(at 134.62 104.14 0)
+		(at 134.62 114.3 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4849,7 +4930,7 @@
 		(dnp no)
 		(uuid "e41ee955-8269-4fdd-9793-805976422e3b")
 		(property "Reference" "G2"
-			(at 134.62 94.6711 0)
+			(at 134.62 104.8311 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4941,7 @@
 			)
 		)
 		(property "Value" "BMD Logo"
-			(at 132.08 114.3 0)
+			(at 132.08 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4871,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" "remote_bmd_logo:BDM_Logo_100mm"
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +4963,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Blue Devil Motorsports silkscreen logo."
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +4985,7 @@
 			)
 		)
 		(property "Manufacturer" "BMD"
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +4996,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BMD Logo"
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5007,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4937,7 +5018,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +5029,7 @@
 			)
 		)
 		(property "Mass (g)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +5040,7 @@
 			)
 		)
 		(property "RQjC (C/W)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +5051,7 @@
 			)
 		)
 		(property "RQjC_top (C/W)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +5062,7 @@
 			)
 		)
 		(property "Temp_max (C)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +5073,7 @@
 			)
 		)
 		(property "Temp_min (C)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5084,7 @@
 			)
 		)
 		(property "Power Dissipation (W)" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +5095,7 @@
 			)
 		)
 		(property "Rate" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +5106,7 @@
 			)
 		)
 		(property "SAP Code" ""
-			(at 134.62 104.14 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5198,7 +5279,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 185.42 73.66 0)
+		(at 139.7 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5209,7 +5290,7 @@
 		(fields_autoplaced yes)
 		(uuid "fca0ceae-d6ba-4657-9ca4-606485b9989a")
 		(property "Reference" "FID3"
-			(at 187.96 72.39 0)
+			(at 142.24 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5220,7 +5301,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 187.96 74.93 0)
+			(at 142.24 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5231,7 +5312,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 185.42 73.66 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,7 +5323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 73.66 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5334,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 185.42 73.66 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
