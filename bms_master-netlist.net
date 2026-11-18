@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "/tmp/tmp-kibot-net_sch_print-3x_yl065/bms_master.kicad_sch")
+		(source "/tmp/tmp-kibot-net_sch_print-5sc53_z2/bms_master.kicad_sch")
 		(date "Date")
 		(tool "Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1")
 		(textvar
@@ -41,9 +41,9 @@
 			(name "RELEASE_BODY_4")
 		)
 		(textvar
-			(name "RELEASE_DATE") "10-Nov-2026")
+			(name "RELEASE_DATE") "17-Nov-2026")
 		(textvar
-			(name "RELEASE_DATE_NUM") "2026-11-10")
+			(name "RELEASE_DATE_NUM") "2026-11-17")
 		(textvar
 			(name "RELEASE_TITLE_1")
 		)
